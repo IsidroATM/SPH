@@ -1,0 +1,153 @@
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Pers.B4D358BC.Up2Date
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Pers.B4D358BC.Up2Date
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Pers.B4D358BC.Up2Date
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+C:\Users\isiat\Downloads\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll

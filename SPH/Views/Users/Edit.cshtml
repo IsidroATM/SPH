@@ -1,0 +1,81 @@
+﻿@model SPH.Models.User
+
+<h1>Editar Usuario</h1>
+
+<div class="card-body">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label asp-for="Nombre" class="control-label"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NickName" class="control-label"></label>
+            <input asp-for="NickName" class="form-control" />
+            <span asp-validation-for="NickName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Edad" class="control-label"></label>
+            <input asp-for="Edad" class="form-control" />
+            <span asp-validation-for="Edad" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Correo" class="control-label"></label>
+            <input asp-for="Correo" class="form-control" />
+            <span asp-validation-for="Correo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Contraseña" class="control-label"></label>
+            <input asp-for="Contraseña" type="password" class="form-control" />
+            <span asp-validation-for="Contraseña" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="FechaNacimiento" class="control-label"></label>
+            <input asp-for="FechaNacimiento" type="date" class="form-control" />
+            <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+        </div>
+
+        <!-- Campos ocultos -->
+        <div class="form-group hide">
+            <label asp-for="Rol" class="control-label"></label>
+            <input asp-for="Rol" class="form-control" />
+            <span asp-validation-for="Rol" class="text-danger"></span>
+        </div>
+        <div class="form-group hide">
+            <label asp-for="Estado" class="control-label"></label>
+            <input asp-for="Estado" class="form-control" />
+            <span asp-validation-for="Estado" class="text-danger"></span>
+        </div>
+        <!-- Fin campos ocultos -->
+
+        <div class="form-group">
+            <label asp-for="ImagenPerfil" class="control-label"></label>
+            <input asp-for="ImagenPerfil" class="form-control" />
+            <span asp-validation-for="ImagenPerfil" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Biografia" class="control-label"></label>
+            <textarea asp-for="Biografia" class="form-control"></textarea>
+            <span asp-validation-for="Biografia" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NumeroContacto" class="control-label"></label>
+            <input asp-for="NumeroContacto" class="form-control" />
+            <span asp-validation-for="NumeroContacto" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Ubicacion" class="control-label"></label>
+            <input asp-for="Ubicacion" class="form-control" />
+            <span asp-validation-for="Ubicacion" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Organizacion" class="control-label"></label>
+            <input asp-for="Organizacion" class="form-control" />
+            <span asp-validation-for="Organizacion" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    </form>
+</div>

@@ -1,0 +1,90 @@
+﻿@model SPH.Models.Calendar
+
+@{
+    ViewData["Title"] = "Detalles del Evento";
+}
+
+<h1>@Model.NombreEvento</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Descripción
+        </dt>
+        <dd class="col-sm-10">
+            @Model.DetalleEvento
+        </dd>
+        <dt class="col-sm-2">
+            Fecha de Inicio
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FechaIniEvento
+        </dd>
+        <dt class="col-sm-2">
+            Fecha de Fin
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FechaFinEvento
+        </dd>
+        <dt class="col-sm-2">
+            Color
+        </dt>
+        <dd class="col-sm-10">
+            <div style="width:20px; height:20px; background-color:@Model.ColorEvento;"></div>
+        </dd>
+    </dl>
+
+    <form id="deleteEventForm" asp-action="Delete" asp-route-id="@Model.EventId" method="post">
+        <button type="submit" id="deleteEventBtn" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index">Volver a la lista</a>
+    </form>
+
+    <a asp-action="Edit" asp-route-id="@Model.EventId" class="btn btn-primary">Editar</a>
+</div>
+
+@section scripts {
+    <script>
+        // Función para eliminar el evento
+        $(function () {
+            $('#deleteEventForm').submit(function (event) {
+                event.preventDefault(); // Evitar el envío del formulario por defecto
+
+                swal({
+                    title: "¿Estás seguro de eliminar este evento?",
+                    text: "Este registro no se podrá recuperar",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true
+                }).then((willDelete) => {
+                    if (willDelete) {
+                        // Obtener el token de verificación
+                        const token = $('input[name="__RequestVerificationToken"]').val();
+                        const eventId = @Model.EventId; // Obtener el ID del evento del modelo Razor
+
+                        $.ajax({
+                            type: "POST",
+                            url: "/Calendaries/Delete",
+                            data: {
+                                id: eventId,
+                                __RequestVerificationToken: token
+                            },
+                            success: function (data) {
+                                if (data.success) {
+                                    toastr.success(data.message); // Mostrar mensaje de éxito
+                                    setTimeout(function () {
+                                        window.location.href = '@Url.Action("Index", "Calendaries")'; // Redirigir al index del calendario
+                                    }, 500);
+                                } else {
+                                    toastr.error(data.message); // Mostrar mensaje de error si no se pudo eliminar
+                                }
+                            },
+                            error: function () {
+                                toastr.error("Error al intentar eliminar el evento.");
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

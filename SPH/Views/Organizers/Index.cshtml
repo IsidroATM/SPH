@@ -1,0 +1,86 @@
+﻿@model IEnumerable<SPH.Models.Organizer>
+
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="~/css/st.css">
+</head>
+
+<div class="sidebar" id="sidebar">
+    <a href="@Url.Action("Index", "Home")">
+        <img src="~/images/logo.png" alt="Logo" class="mb-4">
+    </a>
+    <p class="text-center">ID de usuario: @ViewData["UserId"]</p>
+    <a href="@Url.Action("Index", "Calendaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-calendar-alt mr-2"></i> Calendario</a>
+    <a href="@Url.Action("Index", "Diaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-book mr-2"></i> Agenda</a>
+    <a href="@Url.Action("Index", "Organizers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-tasks mr-2"></i> Organizador</a>
+    <a href="@Url.Action("Index", "Messengers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-comments mr-2"></i> Mensajería</a>
+    <a href="@Url.Action("Index", "Themes")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-paint-brush mr-2"></i> Personalizar Tema</a>
+    <a href="@Url.Action("Details", "Users")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-cog mr-2"></i> Configurar</a>
+</div>
+
+
+<div class="content" id="content">
+    <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
+    <h2 class="display-3 mb-3">Lista de Tareas</h2>
+
+    <!-- Aquí va el contenido actual de la vista -->
+    <a asp-action="Create" class="btn btn-success">Crear Nueva Tarea</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Detalles</th>
+                <th>Fecha Límite</th>
+                <th>Fecha Creación</th>
+                <th>Nivel de Prioridad</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarea in Model)
+            {
+                <tr>
+                    <td>@tarea.TaskId</td>
+                    <td>@tarea.Nombre</td>
+                    <td>@tarea.Detalles</td>
+                    <td>@tarea.FechaLimite.ToShortDateString()</td>
+                    <td>@tarea.FechaCreacion.ToShortDateString()</td>
+                    <td>
+                        @if (tarea.NivelPrioridad == 1)
+                        {
+                            <span>Bajo</span>
+                        }
+                        else if (tarea.NivelPrioridad == 2)
+                        {
+                            <span>Medio</span>
+                        }
+                        else if (tarea.NivelPrioridad == 3)
+                        {
+                            <span>Alto</span>
+                        }
+                        else
+                        {
+                            <span></span>
+                        }
+                    </td>
+                    <td>@tarea.Estado</td>
+                    <td>
+                        <a asp-action="Detail" asp-route-id="@tarea.TaskId" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-action="Edit" asp-route-id="@tarea.TaskId" class="btn btn-primary btn-sm">Editar</a>
+                        <button class="btn btn-danger btn-sm" onclick="Delete('@Url.Action("Delete", "Organizers")', @tarea.TaskId)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/organizer.js"></script>
+    <script src="~/js/sidebar.js"></script>
+}

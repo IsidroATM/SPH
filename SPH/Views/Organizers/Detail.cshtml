@@ -1,0 +1,49 @@
+﻿@model SPH.Models.Organizer
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>Detalles de Tarea</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">Id:</dt>
+    <dd class="col-sm-10">@Model.TaskId</dd>
+
+    <dt class="col-sm-2">Nombre:</dt>
+    <dd class="col-sm-10">@Model.Nombre</dd>
+
+    <dt class="col-sm-2">Detalles:</dt>
+    <dd class="col-sm-10">@Model.Detalles</dd>
+
+    <dt class="col-sm-2">Fecha Límite:</dt>
+    <dd class="col-sm-10">@Model.FechaLimite.ToShortDateString()</dd>
+
+    <dt class="col-sm-2">Fecha Creación:</dt>
+    <dd class="col-sm-10">@Model.FechaCreacion.ToShortDateString()</dd>
+
+    <dt class="col-sm-2">Nivel de Prioridad:</dt>
+    <dd class="col-sm-10">
+        @if (Model.NivelPrioridad == 1)
+        {
+            <text>Bajo</text>
+        }
+        else if (Model.NivelPrioridad == 2)
+        {
+            <text>Medio</text>
+        }
+        else if (Model.NivelPrioridad == 3)
+        {
+            <text>Alto</text>
+        }
+        else
+        {
+            <text>Desconocido</text>
+        }
+    </dd>
+
+    <!-- Asegúrate de incluir los demás campos de Organizer según tu modelo -->
+</dl>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</div>

@@ -1,0 +1,158 @@
+﻿@model Tuple<IEnumerable<SPH.Models.Message>, IEnumerable<SPH.Models.Message>>
+
+@{
+    ViewData["Title"] = "Mensajes";
+    var messengerId = ViewData["MessengerId"] as int?;
+    var userId = ViewData["UserId"] as int?;
+    var userContactId = ViewData["UserContactId"] as int?;
+}
+
+<h2>Mensajes</h2>
+
+@if (messengerId.HasValue)
+{
+    <p>Messenger ID: @messengerId</p>
+    <p class="text-center">ID de usuario: @userId</p>
+}
+else
+{
+    <p>Messenger ID no disponible.</p>
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Chat</h3>
+        @if (Model.Item1 != null || Model.Item2 != null)
+        {
+            <div class="chat-box">
+                @foreach (var message in Model.Item1.Concat(Model.Item2).OrderBy(m => m.Timestamp))
+                {
+                    <div class="chat-message @(message.SenderId == userId ? "right" : "left")">
+                        <p>@message.Content</p>
+                        <span class="timestamp">@message.Timestamp.ToString("g")</span>
+                        @if (!string.IsNullOrEmpty(message.MultimediaContentType))
+                        {
+                            @if (message.MultimediaContentType.StartsWith("image/"))
+                            {
+                                <img src="data:@message.MultimediaContentType;base64,@Convert.ToBase64String(message.MultimediaContent)" />
+                            }
+                            else if (message.MultimediaContentType.StartsWith("video/"))
+                            {
+                                <video width="320" height="240" controls>
+                                    <source src="data:@message.MultimediaContentType;base64,@Convert.ToBase64String(message.MultimediaContent)" type="@message.MultimediaContentType">
+                                </video>
+                            }
+                            else
+                            {
+                                <a href="data:@message.MultimediaContentType;base64,@Convert.ToBase64String(message.MultimediaContent)" download>Descargar archivo adjunto</a>
+                            }
+                        }
+                        <div class="message-options">
+                            @if (message.SenderId == userId)
+                            {
+                                <form class="delete-form">
+                                    <input type="hidden" name="id" value="@message.MessageId" />
+                                    <button type="button" class="btn btn-link delete-btn">Eliminar</button>
+                                </form>
+                                <a href="@Url.Action("Edit", "Messages", new { id = message.MessageId })" class="btn btn-link edit-btn">Editar</a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <p>No hay mensajes en esta conversación.</p>
+        }
+    </div>
+</div>
+
+<hr />
+
+<div id="new-message-form">
+    <h4>Enviar Nuevo Mensaje</h4>
+    <form id="message-form" asp-action="Create" asp-controller="Messages" asp-route-messengerId="@messengerId" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label class="control-label">Contenido del Mensaje:</label>
+            <textarea class="form-control" name="Content" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label class="control-label">Adjuntar Archivo:</label>
+            <input type="file" name="MultimediaFile">
+        </div>
+        <input type="hidden" name="SenderId" value="@userId" />
+        <input type="hidden" name="ReceiverId" value="@userContactId" />
+        <input type="hidden" name="MessengerId" value="@messengerId" />
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+
+<style>
+    .chat-box {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .chat-message {
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10px;
+        width: fit-content;
+        max-width: 70%;
+    }
+
+        .chat-message.right {
+            background-color: #d1e7dd;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        .chat-message.left {
+            background-color: #f8d7da;
+            align-self: flex-start;
+            margin-right: auto;
+        }
+
+    .timestamp {
+        display: block;
+        font-size: 0.8em;
+        color: #6c757d;
+        margin-top: 5px;
+    }
+
+    .message-options {
+        margin-top: 5px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            // Configurar la acción para eliminar mensajes
+            $(".delete-btn").click(function (e) {
+                e.preventDefault();
+                var form = $(this).closest("form");
+                var messageId = form.find("input[name='id']").val();
+
+                if (confirm('¿Estás seguro de eliminar este mensaje?')) {
+                    $.ajax({
+                        url: "@Url.Action("DeleteConfirmed", "Messages")",
+                        type: "POST",
+                        data: { id: messageId },
+                        success: function () {
+                            // Recargar la página después de eliminar
+                            location.reload();
+                        },
+                        error: function () {
+                            alert("Error al eliminar el mensaje. Inténtelo de nuevo más tarde.");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,52 @@
+﻿@model SPH.Models.Messenger
+
+@{
+    ViewData["Title"] = "Detalles del Contacto";
+}
+
+<h2>Detalles del Contacto</h2>
+
+<div>
+    <h4>ID de Contacto: @Model.MessengerId</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserContact.Correo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserContact.Correo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NameUserContact)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NameUserContact)
+        </dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.MessengerId" class="btn btn-primary">Editar</a>
+</p>
+
+<form id="deleteMessengerForm" asp-action="Delete" asp-route-id="@Model.MessengerId" method="post">
+    <button type="submit" id="btnDelete" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index">Volver a la lista</a>
+</form>
+
+@section Scripts {
+    <script src="~/js/messenger.js"></script>
+    <script>
+        $(function () {
+            $('#deleteMessengerForm').submit(function (event) {
+                event.preventDefault(); // Evitar el envío del formulario por defecto
+
+                // Obtener el ID del Messenger del modelo Razor
+                const messengerId = '@Model.MessengerId';
+
+                // Llamar a la función deleteMessenger del archivo messenger.js
+                deleteMessenger(messengerId);
+            });
+        });
+    </script>
+}

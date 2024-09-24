@@ -1,0 +1,26 @@
+﻿/* content.css */
+.content {
+    margin-left: 250px; /* Ajuste para dejar espacio para la barra lateral */
+    padding: 20px;
+}
+
+.open-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+}
+
+    .open-btn:hover {
+        background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el ratón */
+    }
+
+h1, h2 {
+    color: #007bff; /* Color azul para títulos principales */
+}

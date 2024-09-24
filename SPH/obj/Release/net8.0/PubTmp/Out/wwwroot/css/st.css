@@ -1,0 +1,92 @@
+﻿body {
+    display: flex;
+}
+
+.sidebar {
+    width: 0;
+    height: 100vh;
+    background-color: rgb(16, 16, 16,1); /* Color de fondo más oscuro */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+    .sidebar a {
+        padding: 15px 15px 15px 30px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: background-color 0.3s, color 0.3s; /* Transición para el cambio de color de fondo y texto */
+        background-color: rgb(16, 16, 16); /* Color de fondo uniforme para los botones */
+        margin-bottom: 10px; /* Espacio entre los botones */
+    }
+
+        .sidebar a:hover {
+            background-color: #3b4146; /* Color más oscuro al hacer hover */
+            color: black; /* Cambia el color del texto a negro */
+        }
+
+.content {
+    margin-left: 0;
+    padding: 20px;
+    transition: margin-left 0.5s;
+    width: 100%;
+}
+
+.open-btn {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #3b4146; /* Color de fondo del botón */
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.content h1, .content h2, .content p {
+    color: #343a40; /* Color principal para el contenido */
+}
+
+.sidebar img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+
+
+.contenthome {
+    padding: 20px;
+    transition: margin-left 0.5s;
+    background-color: rgb(28, 28, 28, 0.6);
+    font-family: 'HoloLens MDL2 Assets'; /* Fuente específica */
+    font-style: italic; /* Estilo de la fuente */
+    color: rgb(218, 156, 32); /* Color del texto */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada para efecto 3D */
+    text-align: center;
+    transform: perspective(1000px) rotateX(5deg); /* Efecto de perspectiva y rotación */
+}
+
+    .contenthome h1, .contenthome h2, .contenthome p {
+        color: rgb(218, 156, 32); /* Color del texto dentro de contenthome */
+    }
+
+.welcome-description {
+    margin-top: 20px;
+    text-align: left;
+}
+
+    .welcome-description ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .welcome-description ul li {
+            margin-bottom: 10px;
+        }

@@ -1,0 +1,63 @@
+﻿@model SPH.Models.Organizer
+
+@{
+    ViewData["Title"] = "Crear Nueva Tarea";
+}
+
+<h1>Crear Nueva Tarea</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Nombre" class="control-label"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Detalles" class="control-label"></label>
+        <textarea asp-for="Detalles" class="form-control"></textarea>
+        <span asp-validation-for="Detalles" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FechaLimite" class="control-label"></label>
+        <input asp-for="FechaLimite" type="date" class="form-control" />
+        <span asp-validation-for="FechaLimite" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FechaCreacion" class="control-label"></label>
+        <input asp-for="FechaCreacion" class="form-control" />
+        <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NivelPrioridad" class="control-label"></label>
+        <select asp-for="NivelPrioridad" class="form-control">
+            <option value="1">Bajo</option>
+            <option value="2">Medio</option>
+            <option value="3">Alto</option>
+        </select>
+        <span asp-validation-for="NivelPrioridad" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estado" class="control-label"></label>
+        <select asp-for="Estado" class="form-control">
+            <option value="Pendiente">Pendiente</option>
+            <option value="En Progreso">En Progreso</option>
+            <option value="Completada">Completada</option>
+        </select>
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label"></label>
+        <input asp-for="UserId" class="form-control" />
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Guardar" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

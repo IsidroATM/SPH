@@ -1,0 +1,153 @@
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repo.569E266F.Up2Date
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repo.569E266F.Up2Date
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repo.569E266F.Up2Date
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll

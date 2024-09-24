@@ -1,0 +1,55 @@
+﻿@model SPH.Models.Theme
+@using System.Security.Claims
+@{
+    ViewData["Title"] = "Crear Nuevo Tema";
+}
+
+<h1>Crear Nuevo Tema</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Color" class="control-label"></label>
+        <select asp-for="Color" class="form-control">
+            <option value="">Seleccione un color</option>
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarillo</option>
+            <!-- Agregar más colores según sea necesario -->
+        </select>
+        <span asp-validation-for="Color" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FontType" class="control-label"></label>
+        <select asp-for="FontType" class="form-control">
+            <option value="">Seleccione un tipo de fuente</option>
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Helvetica">Helvetica</option>
+            <!-- Agregar más tipos de fuente según sea necesario -->
+        </select>
+        <span asp-validation-for="FontType" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FontSize" class="control-label"></label>
+        <select asp-for="FontSize" class="form-control">
+            <option value="">Seleccione un tamaño de fuente</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <!-- Agregar más tamaños de fuente según sea necesario -->
+        </select>
+        <span asp-validation-for="FontSize" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" asp-for="UserId" value="@User.FindFirst(ClaimTypes.NameIdentifier)?.Value" />
+
+    <button type="submit" class="btn btn-primary">Crear Tema</button>
+</form>

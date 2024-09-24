@@ -1,0 +1,83 @@
+﻿@model SPH.Models.Message
+
+@{
+    ViewData["Title"] = "Edit Message";
+}
+
+<h1>Edit Message</h1>
+
+<h4>Message</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="edit-message-form" asp-action="Edit" asp-controller="Messages" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="text" asp-for="MessageId" />
+
+            <div class="form-group">
+                <label asp-for="Content" class="control-label">Content:</label>
+                <textarea asp-for="Content" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Content" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Timestamp" class="control-label">Timestamp:</label>
+                <input asp-for="Timestamp" class="form-control" type="text" readonly value="@DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")" />
+                <span asp-validation-for="Timestamp" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Current Multimedia Content:</label>
+                @if (Model.MultimediaContent != null && Model.MultimediaContent.Length > 0)
+                {
+                    @if (!string.IsNullOrEmpty(Model.MultimediaContentType))
+                    {
+                        @if (Model.MultimediaContentType.StartsWith("image/"))
+                        {
+                            <img src="data:@Model.MultimediaContentType;base64,@Convert.ToBase64String(Model.MultimediaContent)" class="img-fluid" alt="Multimedia Content">
+                        }
+                        else if (Model.MultimediaContentType.StartsWith("video/"))
+                        {
+                            <video width="320" height="240" controls>
+                                <source src="data:@Model.MultimediaContentType;base64,@Convert.ToBase64String(Model.MultimediaContent)" type="@Model.MultimediaContentType">
+                            </video>
+                        }
+                        else
+                        {
+                            <a href="data:@Model.MultimediaContentType;base64,@Convert.ToBase64String(Model.MultimediaContent)" download>Download attachment</a>
+                        }
+                    }
+                    else
+                    {
+                        <p>No multimedia content attached.</p>
+                    }
+                }
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Update Multimedia Content:</label>
+                <input type="file" name="MultimediaFile">
+                <span class="text-muted">Upload a new file only if you want to update the multimedia content.</span>
+            </div>
+
+            <input type="text" asp-for="SenderId" />
+            <input type="text" asp-for="ReceiverId" />
+            <input type="text" asp-for="MessengerId" />
+
+           
+            <div class="form-group">
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Messengers")" class="btn btn-link edit-btn">Regresar</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

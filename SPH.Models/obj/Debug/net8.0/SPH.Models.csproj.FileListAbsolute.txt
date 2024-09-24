@@ -1,0 +1,99 @@
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\OneDrive\Documentos\DISARQUISOFT\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\Diseño y arquitectura de sofware\proyecto\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\DisArquiSoft\Proyecto\V3\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C7\Diars\Proyecto\V4\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\V1_T1\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+C:\Users\jeanp\Desktop\CALYPSO\SPH\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+C:\Users\isiat\Downloads\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll

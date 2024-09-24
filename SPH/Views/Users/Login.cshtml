@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles_user_login.css">
+</head>
+<body>
+    <div class="wrapper mt-5 pt-5">
+        <form asp-controller="Users" asp-action="Login" method="post">
+            <h1>Iniciar Sesión</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Correo" required name="email">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Contraseña" required name="clave">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn">Iniciar Sesión</button>
+            @if (ViewData["Mensaje"] != null)
+            {
+                <div class="form-group">
+                    <div class="alert alert-danger" role="alert">
+                        @ViewData["Mensaje"]
+                    </div>
+                </div>
+            }
+            <div class="register-link">
+                <p>¿No tienes una cuenta? <a href="@Url.Action("Register","Users")">Regístrate!</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Cualquier otro script que necesites
+        });
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

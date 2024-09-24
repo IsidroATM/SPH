@@ -1,0 +1,71 @@
+﻿@using Newtonsoft.Json
+@model IEnumerable<SPH.Models.Calendar>
+
+@{
+    ViewData["Title"] = "Calendario";
+}
+
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="~/css/st.css">
+</head>
+
+<div class="sidebar" id="sidebar">
+    <a href="@Url.Action("Index", "Home")">
+        <img src="~/images/logo.png" alt="Logo" class="mb-4">
+    </a>
+    <p class="text-center">ID de usuario: @ViewData["UserId"]</p>
+    <a href="@Url.Action("Index", "Calendaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-calendar-alt mr-2"></i> Calendario</a>
+    <a href="@Url.Action("Index", "Diaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-book mr-2"></i> Agenda</a>
+    <a href="@Url.Action("Index", "Organizers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-tasks mr-2"></i> Organizador</a>
+    <a href="@Url.Action("Index", "Messengers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-comments mr-2"></i> Mensajería</a>
+    <a href="@Url.Action("Index", "Themes")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-paint-brush mr-2"></i> Personalizar Tema</a>
+    <a href="@Url.Action("Details", "Users")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-cog mr-2"></i> Configurar</a>
+</div>
+
+
+<div class="content" id="content">
+    <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
+    <h2 class="display-3 mb-3">Vistas de calendario</h2>    
+
+    
+    <div class="calendar-container">
+        <a href="@Url.Action("Create", "Calendaries")" class="btn btn-primary mb-3">Agregar Evento</a>
+        <div id="calendar"></div>
+        <input type="hidden" id="events-data" value='@Html.Raw(JsonConvert.SerializeObject(Model.Select(e => new {
+        title = e.NombreEvento,
+        start = e.FechaIniEvento.ToString("yyyy-MM-ddTHH:mm:ss"),
+        end = e.FechaFinEvento.ToString("yyyy-MM-ddTHH:mm:ss"),
+        color = e.ColorEvento,
+        id = e.EventId,
+        allDay = IsAllDayEvent(e)
+    })))' />
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+    <script src="~/js/calendar.js"></script>
+    <script src="~/js/sidebar.js"></script>
+}
+
+<style>
+    .calendar-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+</style>
+
+@functions {
+    bool IsAllDayEvent(SPH.Models.Calendar calendarEvent)
+    {
+        return calendarEvent.FechaIniEvento.TimeOfDay == TimeSpan.Zero &&
+               calendarEvent.FechaFinEvento.TimeOfDay == TimeSpan.Zero;
+    }
+}

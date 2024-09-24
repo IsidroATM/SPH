@@ -1,0 +1,49 @@
+﻿@model SPH.Models.Calendar
+
+@{
+    ViewData["Title"] = "Editar Evento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="EventId" />
+    <input type="hidden" asp-for="UserId" />
+
+    <div class="form-group">
+        <label asp-for="NombreEvento" class="control-label"></label>
+        <input asp-for="NombreEvento" class="form-control" />
+        <span asp-validation-for="NombreEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DetalleEvento" class="control-label"></label>
+        <textarea asp-for="DetalleEvento" class="form-control"></textarea>
+        <span asp-validation-for="DetalleEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaIniEvento" class="control-label"></label>
+        <input asp-for="FechaIniEvento" class="form-control" />
+        <span asp-validation-for="FechaIniEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaFinEvento" class="control-label"></label>
+        <input asp-for="FechaFinEvento" class="form-control" />
+        <span asp-validation-for="FechaFinEvento" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ColorEvento" class="control-label"></label>
+        <input type="color" asp-for="ColorEvento" class="form-control" />
+        <span asp-validation-for="ColorEvento" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
