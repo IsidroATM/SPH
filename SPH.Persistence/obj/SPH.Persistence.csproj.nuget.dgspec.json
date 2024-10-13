@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {}
+    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
+    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectUniqueName": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj",
         "projectName": "SPH.Models",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\obj\\",
+        "outputPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "projectUniqueName": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
         "projectName": "SPH.Persistence",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\obj\\",
+        "outputPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj"
               }
             }
           }

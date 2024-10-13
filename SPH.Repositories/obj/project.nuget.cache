@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PS54wGhd5EDduvl9bxcO3LeMX11dwHYkyAn5CED2T8t6PiZYvfq0myLLQ5mmkZm4Gm+uso9dTsJjswqqtqueQ==",
+  "dgSpecHash": "KbK6NXDT1ZA/oBW2ozdQXtgRX9QEKyV6kgH8WJigf+VkBH02O57MYsOfiGJG8VvTtAyaZWtz+KLNiuFyjkSm7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
+  "projectFilePath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isiat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\isiat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

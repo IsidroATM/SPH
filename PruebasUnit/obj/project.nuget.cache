@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CPMfUH3IxjfrPstQ85qlF34wjylmri4pTPfejIZm/10NlKZpmKWzODcz2ZiNWglTMdjRrcY5hB4JEG3WvKFSvg==",
+  "dgSpecHash": "L3VAw3jQVb5/OB19Og6W8JfXgzJ1FIRDEYJ73qQEDXI+HQQoqQZvY3zyNJIGRTVQss9GkMtnTAJBQ7SPvd/L7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj",
+  "projectFilePath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\PruebasUnit\\PruebasUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isiat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\isiat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

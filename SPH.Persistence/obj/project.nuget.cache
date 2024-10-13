@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XYjGSjy3gZvBiQdUOkrz92ZYniSplu1AU3dX6PNVvkcx+da+Kx5Dhoi22/tQxYPMGVxI1h8RR4xJeZAnUKy+VQ==",
+  "dgSpecHash": "0k3+803fg2BuAF5n4iG9PWxWKovlpr0SCS1TCFc5QgqnUQfhO7QfgSXdK30P4iRsHEJa9NvA5xcR+U5/QSMoIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+  "projectFilePath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isiat\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\isiat\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

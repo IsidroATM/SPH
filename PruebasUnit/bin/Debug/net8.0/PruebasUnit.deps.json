@@ -15,6 +15,7 @@
           "NUnit.Analyzers": "3.6.1",
           "NUnit3TestAdapter": "4.2.1",
           "SPH": "1.0.0",
+          "SPH.Utilities": "1.0.0",
           "coverlet.collector": "6.0.0"
         },
         "runtime": {
