@@ -4,56 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="~/css/styles_user_register.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/register.css">
 </head>
 <body>
-    <div class="register-container">
-        <div class="form-container">
-            <h2>Registrar Nueva Cuenta</h2>
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                    <form asp-controller="Users" asp-action="Register" method="post" class="sign-in-form">
 
-            <!-- Sección para mostrar mensajes de error -->
-            @if (ViewData["Mensaje"] != null)
-            {
-                <div class="alert alert-danger">
-                    <p>@ViewData["Mensaje"]</p>
-                </div>
-            }
+                        <div class="heading">
+                            <h2>Crear una Cuenta</h2>
+                            <h6>¿Ya tienes una cuenta?</h6>
+                            <a href="@Url.Action("Login", "Users")" class="toggle">Inicia Sesión</a>
+                        </div>
 
-            <form asp-controller="Users" asp-action="Register" method="post">
-                <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                        <!-- Sección para mostrar mensajes de error -->
+                        @if (ViewData["Mensaje"] != null)
+                        {
+                            <div class="alert alert-danger">
+                                <p>@ViewData["Mensaje"]</p>
+                            </div>
+                        }
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Nombre" required id="nombre" name="nombre" class="input-field" autocomplete="off" />
+                                <i class='bx bxs-user'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Nickname" required id="nickname" name="nickname" class="input-field" autocomplete="off" />
+                                <i class='bx bxs-user'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="number" placeholder="Edad" required id="edad" name="edad" class="input-field" autocomplete="off" />
+                                <i class='bx bxs-calendar'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="email" placeholder="Correo" required id="correo" name="correo" class="input-field" autocomplete="off" />
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" placeholder="Contraseña" required id="contraseña" name="contraseña" class="input-field" autocomplete="off" />
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="date" placeholder="Fecha de Nacimiento" required id="fechaNacimiento" name="fechaNacimiento" class="input-field" />
+                                <i class='bx bxs-calendar'></i>
+                            </div>
+
+                            <input type="submit" value="Registrar" class="sign-btn btn" />
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="nickname">NickName</label>
-                    <input type="text" id="nickname" name="nickname" required>
+
+                <!-- Carrusel de imágenes y textos -->
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="~/images/img1.jpeg" class="image img-1 show" alt="Image 1" />
+                        <img src="~/images/img2.jpeg" class="image img-2" alt="Image 2" />
+                        <img src="~/images/img3.jpeg" class="image img-3" alt="Image 3" />
+                    </div>
+
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2>¡Únete a nuestra comunidad!</h2>
+                                <h2>Comparte tus experiencias</h2>
+                                <h2>Crece junto a nosotros</h2>
+                            </div>
+                        </div>
+
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="edad">Edad</label>
-                    <input type="number" id="edad" name="edad" required>
-                </div>
-                <div class="form-group">
-                    <label for="correo">Correo</label>
-                    <input type="email" id="correo" name="correo" required>
-                </div>
-                <div class="form-group">
-                    <label for="contraseña">Contraseña</label>
-                    <input type="password" id="contraseña" name="contraseña" required>
-                </div>
-                <div class="form-group">
-                    <label for="fechaNacimiento">Fecha Nacimiento</label>
-                    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
-                </div>
-                <button type="submit">Registrar</button>
-            </form>
-        </div>
-        <div class="motivational-text">
-            <h3>¡Únete a nuestra comunidad!</h3>
-            <p>Conéctate con personas increíbles, comparte tus experiencias y crece junto a nosotros. Regístrate hoy y comienza tu viaje con nosotros.</p>
-            <div class="login-link">
-                <a href="@Url.Action("Login", "Users")">¿Ya tienes una cuenta? Inicia Sesión</a>
             </div>
         </div>
-    </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const images = document.querySelectorAll('.image');
+            const bullets = document.querySelectorAll('.bullets span');
+            const textGroup = document.querySelector('.text-group');
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                images.forEach((img, i) => {
+                    img.classList.toggle('show', i === index);
+                });
+                bullets.forEach((bullet, i) => {
+                    bullet.classList.toggle('active', i === index);
+                });
+                textGroup.style.transform = `translateY(-${index * 100}%)`;
+            }
+
+            bullets.forEach((bullet, index) => {
+                bullet.addEventListener('click', () => {
+                    currentIndex = index;
+                    showSlide(currentIndex);
+                });
+            });
+
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % images.length;
+                showSlide(currentIndex);
+            }, 5000); // Cambia cada 5 segundos
+        });
+    </script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@
 </body>
 </html>

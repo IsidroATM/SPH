@@ -2393,12 +2393,18 @@
           "jQuery.Validation": "1.20.0"
         },
         "runtime": {
-          "SPH.dll": {}
+          "SPH.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SPH.Models/1.0.0": {
         "runtime": {
-          "SPH.Models.dll": {}
+          "SPH.Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SPH.Persistence/1.0.0": {
@@ -2412,7 +2418,10 @@
           "SPH.Models": "1.0.0"
         },
         "runtime": {
-          "SPH.Persistence.dll": {}
+          "SPH.Persistence.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SPH.Repositories/1.0.0": {
@@ -2422,7 +2431,10 @@
           "SPH.Persistence": "1.0.0"
         },
         "runtime": {
-          "SPH.Repositories.dll": {}
+          "SPH.Repositories.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SPH.Utilities/1.0.0": {
@@ -2431,7 +2443,10 @@
           "SPH.Repositories": "1.0.0"
         },
         "runtime": {
-          "SPH.Utilities.dll": {}
+          "SPH.Utilities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
