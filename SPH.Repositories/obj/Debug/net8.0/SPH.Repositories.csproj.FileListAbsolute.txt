@@ -169,3 +169,21 @@ D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repos
 D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
 D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
 D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.sourcelink.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repo.569E266F.Up2Date
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
