@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {}
+    "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {}
   },
   "projects": {
-    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj": {
+    "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectUniqueName": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj",
         "projectName": "SPH.Models",
-        "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj",
-        "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\obj\\",
+        "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "packagesPath": "C:\\Users\\cristopher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cristopher\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +33,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,36 +59,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+    "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
         "projectName": "SPH.Persistence",
-        "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
-        "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "packagesPath": "C:\\Users\\cristopher\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cristopher\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj"
               }
             }
           }
@@ -93,6 +96,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -146,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
