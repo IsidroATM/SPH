@@ -1,58 +1,135 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">   
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para íconos -->
-    <link rel="stylesheet" href="~/css/st.css">
+    <title>Student Planner Hub</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="~/css/home.css">
+    <!-- Bootstrap y FontAwesome (de la primera plantilla) -->
 
 </head>
+
 <body>
-    <div class="sidebar" id="sidebar">
-        <a href="@Url.Action("Index", "Home")">
-            <img src="~/images/logo.png" alt="Logo" class="mb-4">
-        </a>
-        <p class="text-center">ID de usuario: @ViewData["UserId"]</p>
-        <a href="@Url.Action("Index", "Calendaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-calendar-alt mr-2"></i> Calendario</a>
-        <a href="@Url.Action("Index", "Diaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-book mr-2"></i> Agenda</a>
-        <a href="@Url.Action("Index", "Organizers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-tasks mr-2"></i> Organizador</a>
-        <a href="@Url.Action("Index", "Messengers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-comments mr-2"></i> Mensajería</a>
-        <a href="@Url.Action("Index", "Themes")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-paint-brush mr-2"></i> Personalizar Tema</a>
-        <a href="@Url.Action("Details", "Users")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-cog mr-2"></i> Configurar</a>
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="LogOut">Cerrar sesión</a>
-    </div>
+    <!-- =============== Navigation (Sidebar con enlaces del primer HTML) ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">
+                        <span class="icon">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </span>
+                        <span class="title">Student Planner Hub</span>
+                    </a>
+                </li>
 
+                <li>
+                    <a href="@Url.Action("Index", "Calendaries")">
+                        <span class="icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </span>
+                        <span class="title">Calendario</span>
+                    </a>
+                </li>
 
-    <div class="content" id="content">
-        <div class="contenthome" id="contenthome">
-            <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
-            <h1 class="display-4 mb-4">STUDENT PLANNER HUB</h1>
-            <h2 class="display-3 mb-3">Bienvenido @ViewData["nombreUsuario"]</h2>
-            <p>ID de usuario: @ViewData["UserId"]</p>
-            <div class="welcome-description">
-                <p>Bienvenido a Student Planner Hub, donde puedes:</p>
-                <ul>
-                    <li>Crear notas y eventos</li>
-                    <li>Administrar tareas y actividades</li>
-                    <li>Chatear con otros usuarios</li>
-                    <li>Modificar tu perfil</li>
-                    <li>y mucho más...</li>
-                </ul>
-            </div>           
-            <!-- Enlaces a Políticas -->
-            <div class="policies-links mt-3">
-                <a href="@Url.Action("Privacy", "Home")" class="btn btn-secondary">Privacy</a>
+                <li>
+                    <a href="@Url.Action("Index", "Diaries")">
+                        <span class="icon">
+                            <i class="fas fa-book"></i>
+                        </span>
+                        <span class="title">Agenda</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "Organizers")">
+                        <span class="icon">
+                            <i class="fas fa-tasks"></i>
+                        </span>
+                        <span class="title">Organizador</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "Messengers")">
+                        <span class="icon">
+                            <i class="fas fa-comments"></i>
+                        </span>
+                        <span class="title">Mensajería</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Index", "Themes")">
+                        <span class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </span>
+                        <span class="title">Personalizar Tema</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Details", "Users")">
+                        <span class="icon">
+                            <i class="fas fa-cog"></i>
+                        </span>
+                        <span class="title">Configurar</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("LogOut", "Home")">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Cerrar Sesión</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <!-- Topbar (barra superior del segundo HTML con búsqueda y perfil) -->
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="user">
+                    <img src="~/images/user.png" alt="Usuario">
+                </div>
+            </div>
+
+            <!-- ======================= Contenido principal ================== -->
+            <div class="contenthome" id="contenthome">
+                <h1 class="display-4 mb-4">STUDENT PLANNER HUB</h1>
+                <h2 class="display-3 mb-3">Bienvenido, @ViewData["nombreUsuario"]</h2>
+                <p>ID de usuario: @ViewData["UserId"]</p>
+                <div class="welcome-description">
+                    <p>Bienvenido a Student Planner Hub, donde puedes:</p>
+                    <ul>
+                        <li>Crear notas y eventos</li>
+                        <li>Administrar tareas y actividades</li>
+                        <li>Chatear con otros usuarios</li>
+                        <li>Modificar tu perfil</li>
+                        <li>y mucho más...</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
-
-
+    <!-- =========== Scripts =========  -->
+    <script src="~/js/home.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="~/js/sidebar.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
