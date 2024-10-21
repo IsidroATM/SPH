@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SPH.Models;
 using SPH.Repositories.Interfaces;
+using System.Security.Claims;
 
 namespace SPH.Controllers
 {
@@ -43,13 +44,13 @@ namespace SPH.Controllers
         {
             if (ModelState.IsValid)
             {
+                theme.UserId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
                 await _unitWork.theme.AgregarAsync(theme);
                 await _unitWork.GuardarAsync();
-                return RedirectToAction("Index"); // Redirige al Index de Themes
+                return RedirectToAction(nameof(Index));
             }
             return View(theme);
         }
-
 
         public async Task<IActionResult> Edit(int id)
         {
@@ -112,18 +113,17 @@ namespace SPH.Controllers
             await _unitWork.GuardarAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]
         public async Task<IActionResult> ApplyTheme(int id)
         {
-            // Obtener el tema por su ID desde la base de datos
             var theme = await _unitWork.theme.ObtenerAsync(id);
             if (theme == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Tema no encontrado" });
             }
-            // Guardar el ID del tema aplicado 
             HttpContext.Session.SetInt32("AppliedThemeId", id);
-
-            return RedirectToAction(nameof(Index));
+            return Json(new { success = true });
         }
     }
 }

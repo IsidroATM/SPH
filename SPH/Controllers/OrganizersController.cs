@@ -131,7 +131,7 @@ namespace SPH.Controllers
             return View(task);
         }
 
-        
+
         #region API
 
         public async Task<IActionResult> Delete(int id)

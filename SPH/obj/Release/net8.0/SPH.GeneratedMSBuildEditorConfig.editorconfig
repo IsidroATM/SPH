@@ -17,147 +17,147 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SPH
 build_property.RootNamespace = SPH
-build_property.ProjectDir = C:\Users\isiat\Downloads\SPH\SPH\
+build_property.ProjectDir = D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\isiat\Downloads\SPH\SPH
+build_property.MSBuildProjectDirectory = D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Calendaries/Create.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Calendaries/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Calendaries/Detail.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Calendaries/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJpZXNcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Calendaries/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Calendaries/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Calendaries/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Calendaries/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kYXJpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Diaries/Create.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Diaries/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Diaries/Delete.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Diaries/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Diaries/Detail.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Diaries/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhcmllc1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Diaries/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Diaries/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Diaries/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Diaries/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Home/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Home/Privacy.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messages/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messages/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messages/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messengers/Create.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messengers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2VuZ2Vyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messengers/Detail.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messengers/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2VuZ2Vyc1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messengers/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messengers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2VuZ2Vyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Messengers/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Messengers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2VuZ2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Organizers/Create.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Organizers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Organizers/Detail.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Organizers/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyc1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Organizers/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Organizers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Organizers/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Organizers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Shared/Error.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Shared/_Notifications.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Shared/_Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Themes/Create.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Themes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Themes/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Themes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Users/Details.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Users/Edit.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Users/Index.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Users/Login.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Users/Register.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/_ViewImports.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/_ViewStart.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/isiat/Downloads/SPH/SPH/Views/Shared/_Layout.cshtml]
+[D:/UPN/C8/Calypso/Proyecto/Tests/SPH/SPH/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2oqirt4lz7

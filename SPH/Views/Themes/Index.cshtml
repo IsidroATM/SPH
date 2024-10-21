@@ -30,19 +30,41 @@
         <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Tema</a>
     </p>
     <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
-    
+
+
     @foreach (var theme in Model)
     {
         <div>
             <h3>@theme.Name</h3>
             <p>Color: @theme.Color | Tipo de Fuente: @theme.FontType | Tamaño de Fuente: @theme.FontSize</p>
-            <form asp-action="ApplyTheme" asp-route-id="@theme.ThemeId" method="post">
-                <button type="submit" class="btn btn-primary">Aplicar Tema</button>
-            </form>
+            <button class="btn btn-primary apply-theme" data-theme-id="@theme.ThemeId" asp-action="ApplyTheme" asp-route-id="@theme.ThemeId">Aplicar Tema</button>
         </div>
     }
+
 </div>
 
 @section Scripts {
     <script src="~/js/sidebar.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.apply-theme').click(function () {
+                var themeId = $(this).data('theme-id');
+                $.post('@Url.Action("ApplyTheme", "Themes")', { id: themeId }, function (data) {
+                    if (data.success) {
+                        reloadStyles();
+                    } else {
+                        alert('Error al aplicar el tema: ' + data.message);
+                    }
+                });
+            });
+        });
+
+        function reloadStyles() {
+            var styleLink = document.getElementById('theme-style');
+            if (styleLink) {
+                var href = styleLink.href;
+                styleLink.href = href.split('?')[0] + '?v=' + new Date().getTime();
+            }
+        }
+    </script>
 }

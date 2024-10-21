@@ -137,6 +137,7 @@ namespace SPH.Controllers
 
             return View(calendar);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
@@ -144,13 +145,14 @@ namespace SPH.Controllers
             var calendar = await _unitWork.calendar.ObtenerAsync(id);
             if (calendar == null)
             {
-                return Json(new { success = false, message = "Evento no encontrado." });
+                return Json(new Dictionary<string, object> { { "success", false }, { "message", "Evento no encontrado." } });
             }
 
             _unitWork.calendar.Eliminar(calendar);
             await _unitWork.GuardarAsync();
 
-            return Json(new { success = true, message = "Evento eliminado correctamente." });
+            return Json(new Dictionary<string, object> { { "success", true }, { "message", "Evento eliminado correctamente." } });
         }
+
     }
 }

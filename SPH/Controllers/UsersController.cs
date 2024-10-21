@@ -27,45 +27,22 @@ namespace SPH.Controllers
 
         public IActionResult Register() { return View(); }
 
-        //[HttpPost]
-        //public async Task<IActionResult> Register(User user)
-        //{
-        //    user.Contraseña = Utilities.Serv_Encrip.EncriptarClave(user.Contraseña);
-        //    user.Rol = "Estudiante";  // Asignar el rol "Estudiante" por defecto
-        //    user.Estado = true;
-        //    user.Biografia = "";
-        //    user.ImagenPerfil = "";
-        //    user.NumeroContacto = "";
-        //    user.Ubicacion = "";
-        //    user.Organizacion = "";
-        //    User user_c = await _unitWork.user.SaveUsuario(user);
-
-        //    if (user_c.Id > 0)
-        //    {
-        //        return RedirectToAction("Login", "Users");
-        //    }
-        //    ViewData["Mensaje"] = "No se pudo crear el Usuario";
-
-        //    return View();
-
-        //}
-
+        
         [HttpPost]
         public async Task<IActionResult> Register(User user)
         {
-            // Verificar si el correo ya existe
+          
             var existingUser = await _unitWork.user.GetUsuarioByEmail(user.Correo);
 
             if (existingUser != null)
             {
-                // Mostrar mensaje de error si el correo ya está registrado
+              
                 ViewData["Mensaje"] = "El correo ya está registrado. Por favor, intenta con otro correo.";
-                return View(); // Retorna la vista de registro mostrando el mensaje
+                return View();
             }
 
-            // Encriptar la contraseña y asignar valores predeterminados
             user.Contraseña = Utilities.Serv_Encrip.EncriptarClave(user.Contraseña);
-            user.Rol = "Estudiante";  // Asignar el rol "Estudiante" por defecto
+            user.Rol = "Estudiante"; 
             user.Estado = true;
             user.Biografia = "";
             user.ImagenPerfil = "";
@@ -75,11 +52,13 @@ namespace SPH.Controllers
 
             try
             {
-                // Guardar el nuevo usuario
+               
                 User user_c = await _unitWork.user.SaveUsuario(user);
 
                 if (user_c.Id > 0)
                 {
+                    await _unitWork.GuardarAsync(); 
+
                     return RedirectToAction("Login", "Users");
                 }
 
@@ -87,12 +66,11 @@ namespace SPH.Controllers
             }
             catch (Exception ex)
             {
-                // Manejar la excepción si algo sale mal al guardar
                 ViewData["Mensaje"] = "Ocurrió un error al intentar crear el usuario: " + ex.Message;
             }
-
             return View();
         }
+
 
 
         public IActionResult Login()

@@ -54,14 +54,22 @@ namespace SPH.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _unitWork.messenger.AgregarAsync(messenger);
-                await _unitWork.GuardarAsync();
-                TempData[DS.Successful] = "Contacto agregado correctamente.";
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    await _unitWork.messenger.AgregarAsync(messenger);
+                    await _unitWork.GuardarAsync();
+
+                    return Json(new { success = true, message = "Contacto agregado correctamente." });
+                }
+                catch (Exception)
+                {
+                    return Json(new { success = false, message = "Error al agregar el contacto, intente de nuevo." });
+                }
             }
-            TempData[DS.Error] = "Error al agregar el contacto, intente de nuevo.";
-            return View(messenger);
+
+            return Json(new { success = false, message = "Error en los datos del formulario. Verifique los campos e intente de nuevo." });
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
