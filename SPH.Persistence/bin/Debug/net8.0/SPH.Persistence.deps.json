@@ -1027,10 +1027,7 @@
       },
       "SPH.Models/1.0.0": {
         "runtime": {
-          "SPH.Models.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "SPH.Models.dll": {}
         }
       }
     }

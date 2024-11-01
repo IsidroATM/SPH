@@ -127,6 +127,7 @@ namespace SPH.Controllers
             return View(user);
         }
 
+        [HttpGet]
         public async Task<IActionResult> Edit()
         {
             int userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);

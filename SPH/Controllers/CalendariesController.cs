@@ -68,6 +68,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
             {
                 return NotFound();
@@ -111,6 +115,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Detail(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
             {
                 return NotFound();
@@ -128,6 +136,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
                 return NotFound();
 
@@ -142,6 +154,10 @@ namespace SPH.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             var calendar = await _unitWork.calendar.ObtenerAsync(id);
             if (calendar == null)
             {
