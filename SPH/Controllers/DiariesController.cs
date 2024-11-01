@@ -71,17 +71,18 @@ namespace SPH.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Diary diary)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                diary.FechaCreacion = DateTime.Now;
-
-                await _unitWork.diary.AgregarAsync(diary);
-                await _unitWork.GuardarAsync();
-                TempData[DS.Successful] = "Nota creada correctamente.";
-                return RedirectToAction(nameof(Index));
+                return View(diary); // Retornamos la vista con el modelo en caso de error
             }
-            TempData[DS.Error] = "Error al guardar la nota, intente de nuevo.";
-            return View(diary);
+
+            diary.FechaCreacion = DateTime.Now;
+            diary.UserId = GetUserId();
+
+            await _unitWork.diary.AgregarAsync(diary);
+            await _unitWork.GuardarAsync();
+            TempData[DS.Successful] = "Nota creada correctamente.";
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
@@ -91,11 +92,13 @@ namespace SPH.Controllers
             {
                 return NotFound();
             }
+
             var diary = await _unitWork.diary.ObtenerAsync(id.GetValueOrDefault());
             if (diary == null)
             {
                 return NotFound();
             }
+
             return View(diary);
         }
 
@@ -103,25 +106,27 @@ namespace SPH.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Diary diary)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(diary); // Retornamos la vista con el modelo en caso de error
+            }
+
             if (id != diary.NoteId)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            try
             {
-                try
-                {
-                    _unitWork.diary.Actualizar(diary);
-                    await _unitWork.GuardarAsync();
-                }
-                catch (Exception)
-                {
-                    return NotFound();
-                }
+                _unitWork.diary.Actualizar(diary);
+                await _unitWork.GuardarAsync();
+                TempData[DS.Successful] = "Nota actualizada correctamente.";
                 return RedirectToAction(nameof(Index));
             }
-            return View(diary);
+            catch (Exception)
+            {
+                return View(diary); // Retornamos la vista con el modelo en caso de excepción
+            }
         }
 
         [HttpGet]
@@ -156,11 +161,19 @@ namespace SPH.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            var diary = await _unitWork.diary.ObtenerAsync(id);
-            if (diary == null)
-                return Json(new { success = false, message = "Nota no encontrada." });
+            if (!ModelState.IsValid)
+            {
+                var diary = await _unitWork.diary.ObtenerAsync(id);
+                return View(diary); // Retornamos la vista con el modelo en caso de error
+            }
 
-            _unitWork.diary.Eliminar(diary);
+            var diaryToDelete = await _unitWork.diary.ObtenerAsync(id);
+            if (diaryToDelete == null)
+            {
+                return Json(new { success = false, message = "Nota no encontrada." });
+            }
+
+            _unitWork.diary.Eliminar(diaryToDelete);
             await _unitWork.GuardarAsync();
 
             return Json(new { success = true, message = "Nota eliminada correctamente." });
@@ -169,29 +182,30 @@ namespace SPH.Controllers
         [HttpPost]
         public async Task<IActionResult> AutoSave(Diary diary)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                if (diary.NoteId == 0) // Nueva nota
-                {
-                    diary.FechaCreacion = DateTime.Now;
-                    await _unitWork.diary.AgregarAsync(diary);
-                }
-                else // Editando nota existente
-                {
-                    var existingDiary = await _unitWork.diary.ObtenerAsync(diary.NoteId);
-                    if (existingDiary != null)
-                    {
-                        existingDiary.NombreNota = diary.NombreNota;
-                        existingDiary.Descripcion = diary.Descripcion;
-                        // actualiza otros campos si es necesario
-                        _unitWork.diary.Actualizar(existingDiary);
-                    }
-                }
-                await _unitWork.GuardarAsync();
-                return Json(new { success = true, message = "Guardado automático realizado." });
+                return Json(new { success = false, message = "Error al guardar automáticamente." });
             }
-            return Json(new { success = false, message = "Error al guardar automáticamente." });
+
+            if (diary.NoteId == 0) // Nueva nota
+            {
+                diary.FechaCreacion = DateTime.Now;
+                await _unitWork.diary.AgregarAsync(diary);
+            }
+            else // Editando nota existente
+            {
+                var existingDiary = await _unitWork.diary.ObtenerAsync(diary.NoteId);
+                if (existingDiary != null)
+                {
+                    existingDiary.NombreNota = diary.NombreNota;
+                    existingDiary.Descripcion = diary.Descripcion;
+                    // actualiza otros campos si es necesario
+                    _unitWork.diary.Actualizar(existingDiary);
+                }
+            }
+
+            await _unitWork.GuardarAsync();
+            return Json(new { success = true, message = "Guardado automático realizado." });
         }
     }
-
 }
