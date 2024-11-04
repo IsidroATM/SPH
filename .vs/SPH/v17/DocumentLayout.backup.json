@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "home.js",
               "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\home.js",
               "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\home.js",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "SPH\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "SPH\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T14:42:36.41Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\home.css",
               "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\home.css",
               "RelativeToolTip": "SPH\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAwwKsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAwwKkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-04T14:42:07.165Z",
               "EditorCaption": ""
