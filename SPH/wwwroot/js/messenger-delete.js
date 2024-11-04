@@ -7,8 +7,8 @@
         dangerMode: true
     }).then((willDelete) => {
         if (willDelete) {
-            // Obtener el token de verificación
-            const token = $('input[name="__RequestVerificationToken"]').val();
+            const token = document.querySelector('#deleteForm input[name="__RequestVerificationToken"]').value;
+
             $.ajax({
                 type: "POST",
                 url: "/Messengers/Delete",
@@ -20,7 +20,7 @@
                     if (data.success) {
                         toastr.success(data.message);
                         setTimeout(function () {
-                            location.href = '/Messengers/Index'; // Redirigir a la lista de contactos
+                            location.href = '/Messengers/Index';
                         }, 500);
                     } else {
                         toastr.error(data.message);

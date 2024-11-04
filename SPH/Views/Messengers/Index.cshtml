@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="~/css/mensajes.css">
 </head>
 
+<form id="deleteForm" method="post">
+    @Html.AntiForgeryToken()
+</form>
+
+
 <!-- ============ Container ============ -->
 <div class="container">
 
@@ -122,7 +127,7 @@
 @section Scripts {
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="~/js/messenger.js"></script>
+    <script src="~/js/messenger-delete.js"></script>
     <script src="~/js/sidebar.js"></script>
 
 
