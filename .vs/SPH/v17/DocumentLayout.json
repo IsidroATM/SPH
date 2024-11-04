@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\messengers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\messengers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\diaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\diaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\configuracion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\configuracion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,8 +27,100 @@
       "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\themes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\themes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\temas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\temas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\organizers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\organizers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\organizador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\organizador.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\messengers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\messengers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\mensajes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\mensajes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\messenger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\messenger.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\calendaries.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\calendaries.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\messenger-delete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\messenger-delete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\messages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\messages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\calendaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\calendaries\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\diary.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\diary.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\calendaries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\calendaries\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\diary.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\diary.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\js\\calendar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\js\\calendar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\diaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\diaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\views\\calendaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\views\\calendaries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|c:\\users\\cristopher\\downloads\\cristopher\\upn\\ciclo 8\\calidad y pruebas de software\\proyecto\\sph\\sph\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4DFFC51-30F2-4EBC-9108-628041C02266}|SPH\\SPH.csproj|solutionrelative:sph\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +130,393 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messengers\\Create.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Messengers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messengers\\Create.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Messengers\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC8AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:45:02.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "configuracion.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\configuracion.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\configuracion.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\configuracion.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\configuracion.css",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAmwLMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:40:41.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "temas.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\temas.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\temas.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\temas.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\temas.css",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAqwLMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:38:10.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Themes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Themes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Themes\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Themes\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:33:41.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:29:51.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:29:27.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Users\\Login.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Users\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:29:26.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:29:22.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "organizador.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\organizador.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\organizador.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\organizador.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\organizador.css",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAUwLMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:26:40.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Organizers\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Organizers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Organizers\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Organizers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T17:26:01.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "mensajes.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\mensajes.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\mensajes.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\mensajes.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\mensajes.css",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAcwJ8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:24:28.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "messenger-delete.js",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\messenger-delete.js",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\messenger-delete.js",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\messenger-delete.js",
+              "RelativeToolTip": "SPH\\wwwroot\\js\\messenger-delete.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T17:18:49.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "messenger.js",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\messenger.js",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\messenger.js",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\messenger.js",
+              "RelativeToolTip": "SPH\\wwwroot\\js\\messenger.js",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T17:18:48.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "calendaries.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\calendaries.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\calendaries.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\calendaries.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\calendaries.css",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAUwJ0BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:15:28.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "diary.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\diary.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\diary.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\diary.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\diary.css",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAUwBsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:07:16.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "sidebar.js",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\sidebar.js",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\sidebar.js",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\sidebar.js",
+              "RelativeToolTip": "SPH\\wwwroot\\js\\sidebar.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T16:31:19.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "diary.js",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\diary.js",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\diary.js",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\diary.js",
+              "RelativeToolTip": "SPH\\wwwroot\\js\\diary.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T16:10:42.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:08:27.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messengers\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Messengers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messengers\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Messengers\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:08:13.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messages\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Messages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Messages\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Messages\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:08:00.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Diaries\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Diaries\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Diaries\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Diaries\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:07:26.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Diaries\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Diaries\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Diaries\\Edit.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Diaries\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T16:07:16.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Calendaries\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Edit.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Calendaries\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T15:53:28.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Create.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Calendaries\\Create.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Create.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Calendaries\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T15:53:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "SPH\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T15:37:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "calendar.js",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\calendar.js",
+              "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\calendar.js",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\calendar.js",
+              "RelativeToolTip": "SPH\\wwwroot\\js\\calendar.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-04T15:35:38.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Index.cshtml",
+              "RelativeDocumentMoniker": "SPH\\Views\\Calendaries\\Index.cshtml",
+              "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Calendaries\\Index.cshtml",
+              "RelativeToolTip": "SPH\\Views\\Calendaries\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-04T15:32:16.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "home.js",
               "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\home.js",
               "RelativeDocumentMoniker": "SPH\\wwwroot\\js\\home.js",
               "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\js\\home.js",
               "RelativeToolTip": "SPH\\wwwroot\\js\\home.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-04T14:44:42.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "SPH\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "SPH\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T14:42:36.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "home.css",
               "DocumentMoniker": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "SPH\\wwwroot\\css\\home.css",
               "ToolTip": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\home.css",
               "RelativeToolTip": "SPH\\wwwroot\\css\\home.css",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAwwKkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAI8BAAAAAAAAAAAmwLMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-04T14:42:07.165Z",
               "EditorCaption": ""

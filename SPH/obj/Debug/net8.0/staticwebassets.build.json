@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hgI7BYRky1ByioDK5HV2myI8IMmsG7zwW6J+L3gW2BU=",
+  "Hash": "W09GP1GMMwqb/xBhOwUAUYroef/+WmKGjXgMjjCQIm0=",
   "Source": "SPH",
   "BasePath": "_content/SPH",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SPH.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\calentaries.css",
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\calendaries.css",
       "SourceId": "SPH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/calentaries.css",
+      "RelativePath": "css/calendaries.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\calentaries.css"
+      "OriginalItemSpec": "wwwroot\\css\\calendaries.css"
     },
     {
-      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\Diaries.css",
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\configuracion.css",
       "SourceId": "SPH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/Diaries.css",
+      "RelativePath": "css/configuracion.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Diaries.css"
+      "OriginalItemSpec": "wwwroot\\css\\configuracion.css"
+    },
+    {
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\diary.css",
+      "SourceId": "SPH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
+      "BasePath": "_content/SPH",
+      "RelativePath": "css/diary.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\diary.css"
     },
     {
       "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\home.css",
@@ -169,12 +188,12 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\Menssage.css",
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\mensajes.css",
       "SourceId": "SPH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/Menssage.css",
+      "RelativePath": "css/mensajes.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Menssage.css"
+      "OriginalItemSpec": "wwwroot\\css\\mensajes.css"
     },
     {
-      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\Organizador.css",
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\organizador.css",
       "SourceId": "SPH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/Organizador.css",
+      "RelativePath": "css/organizador.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Organizador.css"
+      "OriginalItemSpec": "wwwroot\\css\\organizador.css"
     },
     {
       "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\register.css",
@@ -226,12 +245,12 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\Temas.css",
+      "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\temas.css",
       "SourceId": "SPH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/Temas.css",
+      "RelativePath": "css/temas.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Temas.css"
+      "OriginalItemSpec": "wwwroot\\css\\temas.css"
     },
     {
       "Identity": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\favicon.ico",
