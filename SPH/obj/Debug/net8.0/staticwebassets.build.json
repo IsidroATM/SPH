@@ -155,7 +155,7 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/Temas.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -307,7 +307,7 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\",
       "BasePath": "_content/SPH",
-      "RelativePath": "images/logo.jpeg",
+      "RelativePath": "images/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\user.png",
