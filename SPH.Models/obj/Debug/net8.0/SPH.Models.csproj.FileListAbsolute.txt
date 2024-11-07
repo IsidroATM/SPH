@@ -97,3 +97,39 @@ C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
 C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
 C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
 C:\Users\isiat\Downloads\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.sourcelink.json
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\UPN\C8\Calypso\Proyecto\Tests\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.sourcelink.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.sourcelink.json
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll

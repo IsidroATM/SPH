@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj": {}
+    "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj": {
+    "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj",
         "projectName": "PruebasUnit",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\PruebasUnit\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj"
+              "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
+              },
+              "D:\\Ctest\\SPH\\SPH\\SPH.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH\\SPH.csproj"
               }
             }
           }
@@ -93,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
+    "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj",
         "projectName": "SPH.Models",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+    "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
         "projectName": "SPH.Persistence",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj"
               }
             }
           }
@@ -239,14 +242,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
+    "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
         "projectName": "SPH.Repositories",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -263,11 +266,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj"
               },
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
+              "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
               }
             }
           }
@@ -307,14 +310,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
+    "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\SPH.Utilities.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj",
         "projectName": "SPH.Utilities",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\SPH.Utilities.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -331,11 +334,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj"
               },
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
+              "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
               }
             }
           }
@@ -369,14 +372,14 @@
         }
       }
     },
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj": {
+    "D:\\Ctest\\SPH\\SPH\\SPH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH\\SPH.csproj",
         "projectName": "SPH",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH\\SPH.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -393,17 +396,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj"
+              "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj"
               },
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
+              "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
               },
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
+              "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
               },
-              "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
-                "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
+              "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
+                "projectPath": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
               }
             }
           }

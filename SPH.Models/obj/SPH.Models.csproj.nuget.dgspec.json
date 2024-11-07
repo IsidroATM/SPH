@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {}
+    "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj": {
+    "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectUniqueName": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj",
         "projectName": "SPH.Models",
-        "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\SPH.Models.csproj",
+        "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj",
         "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH.Models\\obj\\",
+        "outputPath": "D:\\Ctest\\SPH\\SPH.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",

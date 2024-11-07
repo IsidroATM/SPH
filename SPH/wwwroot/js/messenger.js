@@ -1,6 +1,4 @@
-﻿// messenger.js
-
-// Función para eliminar el contacto Messenger
+﻿// Función para eliminar el contacto Messenger
 function deleteMessenger(messengerId) {
     swal({
         title: "¿Estás seguro de eliminar este Contacto?",

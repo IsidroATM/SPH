@@ -16,10 +16,10 @@
         <label asp-for="Color" class="control-label"></label>
         <select asp-for="Color" class="form-control">
             <option value="">Seleccione un color</option>
-            <option value="red">Rojo</option>
-            <option value="blue">Azul</option>
-            <option value="green">Verde</option>
-            <option value="yellow">Amarillo</option>
+            <option value="#FF0000">Rojo</option>
+            <option value="#0000FF">Azul</option>
+            <option value="#00FF00">Verde</option>
+            <option value="#FFFF00">Amarillo</option>
             <!-- Agregar más colores según sea necesario -->
         </select>
         <span asp-validation-for="Color" class="text-danger"></span>

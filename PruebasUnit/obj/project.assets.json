@@ -9559,6 +9559,7 @@
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.2.1",
       "SPH >= 1.0.0",
+      "SPH.Utilities >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -9568,11 +9569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj",
+      "projectUniqueName": "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj",
       "projectName": "PruebasUnit",
-      "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\PruebasUnit.csproj",
+      "projectPath": "D:\\Ctest\\SPH\\PruebasUnit\\PruebasUnit.csproj",
       "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isiat\\Downloads\\SPH\\PruebasUnit\\obj\\",
+      "outputPath": "D:\\Ctest\\SPH\\PruebasUnit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9589,8 +9590,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj": {
-              "projectPath": "C:\\Users\\isiat\\Downloads\\SPH\\SPH\\SPH.csproj"
+            "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
+            },
+            "D:\\Ctest\\SPH\\SPH\\SPH.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH\\SPH.csproj"
             }
           }
         }

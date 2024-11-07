@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SPH.Utilities\SPH.Utilities.csproj" />
     <ProjectReference Include="..\SPH\SPH.csproj" />
   </ItemGroup>
 

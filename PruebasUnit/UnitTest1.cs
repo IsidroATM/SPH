@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace PruebasUnit
 {
@@ -64,50 +65,62 @@ namespace PruebasUnit
         [Test]
         public async Task LoginOk()
         {
-            // Preparar
             string email = "isiatom114@gmail.com";
             string password = "Axia2114";
 
-            // Simulación de lo que debería devolver el UnitWork al buscar el usuario
             var mockUser = new User
             {
                 Id = 7,
                 Nombre = "Isidro Antonio Torres Martínez",
                 Correo = email,
-                Contraseña = password,
+                Contraseña = SPH.Utilities.Serv_Encrip.EncriptarClave(password),
                 Rol = "Estudiante"
             };
 
             _mockUnitWork.Setup(u => u.user.GetUsuario(email, It.IsAny<string>()))
                 .ReturnsAsync(mockUser);
 
-            // Preparar el ClaimsPrincipal para el usuario autenticado
             var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, mockUser.Nombre),
-                new Claim(ClaimTypes.Email, mockUser.Correo),
-                new Claim(ClaimTypes.Role, mockUser.Rol)
-            };
+    {
+        new Claim(ClaimTypes.Name, mockUser.Nombre),
+        new Claim(ClaimTypes.NameIdentifier, mockUser.Id.ToString()),
+        new Claim(ClaimTypes.Role, mockUser.Rol)
+    };
 
-            var claimsIdentity = new ClaimsIdentity(claims, "TestAuthType");
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-            // Simular el proceso de SignInAsync
-            _mockAuthService.Setup(a => a.SignInAsync(It.IsAny<HttpContext>(), It.IsAny<string>(), claimsPrincipal, null))
+            ClaimsPrincipal capturedClaimsPrincipal = null;
+
+            _mockAuthService.Setup(a => a.SignInAsync(
+                It.IsAny<HttpContext>(),
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                It.IsAny<ClaimsPrincipal>(), 
+                It.IsAny<AuthenticationProperties>()))
+                .Callback<HttpContext, string, ClaimsPrincipal, AuthenticationProperties>((context, scheme, principal, properties) =>
+                {
+                    capturedClaimsPrincipal = principal;
+                })
                 .Returns(Task.CompletedTask);
 
-            // Simular la redirección
-            _mockUrlHelper.Setup(u => u.Action(It.IsAny<UrlActionContext>()))
-                .Returns("/Home/Index");
-
-            // Ejecutar: Llamar al método Login del controlador
             var result = await _controller.Login(email, password);
 
-            // Verificación
             Assert.IsInstanceOf<RedirectToActionResult>(result);
             var redirectResult = result as RedirectToActionResult;
             Assert.AreEqual("Index", redirectResult.ActionName);
+
+            _mockAuthService.Verify(a => a.SignInAsync(
+                It.IsAny<HttpContext>(),
+                CookieAuthenticationDefaults.AuthenticationScheme, 
+                It.IsAny<ClaimsPrincipal>(),
+                It.IsAny<AuthenticationProperties>()), Times.Once);
+
+            Assert.NotNull(capturedClaimsPrincipal);
+            Assert.IsTrue(capturedClaimsPrincipal.HasClaim(c => c.Type == ClaimTypes.Name && c.Value == mockUser.Nombre));
+            Assert.IsTrue(capturedClaimsPrincipal.HasClaim(c => c.Type == ClaimTypes.NameIdentifier && c.Value == mockUser.Id.ToString()));
+            Assert.IsTrue(capturedClaimsPrincipal.HasClaim(c => c.Type == ClaimTypes.Role && c.Value == mockUser.Rol));
         }
+
 
         [Test]
         public async Task LoginFailed()
@@ -127,5 +140,273 @@ namespace PruebasUnit
             Assert.IsInstanceOf<ViewResult>(result);
             Assert.AreEqual("No se encontraron coincidencias", _controller.ViewData["Mensaje"]);
         }
+
+        [Test]
+        public async Task LoginEmptyCredentials()
+        {
+            var result = await _controller.Login("", "");
+            Assert.IsInstanceOf<ViewResult>(result);
+            Assert.AreEqual("Correo y contraseña son requeridos", _controller.ViewData["Mensaje"]);
+        }
+
+        [Test]
+        public async Task Register_EmailAlreadyExists()
+        {
+            // Simular un usuario ya existente
+            var existingUser = new User { Id = 1, Correo = "existing@test.com" };
+            _mockUnitWork.Setup(u => u.user.GetUsuarioByEmail(It.IsAny<string>())).ReturnsAsync(existingUser);
+
+            // Preparar el usuario nuevo con el mismo correo
+            var newUser = new User { Correo = "existing@test.com", Contraseña = "password123" };
+
+            // Ejecutar
+            var result = await _controller.Register(newUser);
+
+            // Verificar que se regresa la vista de registro con el mensaje de error
+            Assert.IsInstanceOf<ViewResult>(result);
+            Assert.AreEqual("El correo ya está registrado. Por favor, intenta con otro correo.", _controller.ViewData["Mensaje"]);
+        }
+
+        [Test]
+        public async Task RegisterOk()
+        {
+            var newUser = new User
+            {
+                Id = 10,  
+                Nombre = "Nuevo Usuario",
+                Correo = "nuevo@usuario.com",
+                Contraseña = SPH.Utilities.Serv_Encrip.EncriptarClave("Password123"),
+                Rol = "Estudiante",
+                Estado = true,
+                Biografia = "",
+                ImagenPerfil = "",
+                NumeroContacto = "",
+                Ubicacion = "",
+                Organizacion = ""
+            };
+
+            _mockUnitWork.Setup(u => u.user.GetUsuarioByEmail(newUser.Correo))
+                .ReturnsAsync((User)null);
+
+            _mockUnitWork.Setup(u => u.user.SaveUsuario(It.IsAny<User>()))
+                .ReturnsAsync(newUser); 
+
+            _mockUnitWork.Setup(u => u.GuardarAsync())
+                .Returns(Task.CompletedTask);
+
+            var result = await _controller.Register(newUser);
+
+            Assert.IsInstanceOf<RedirectToActionResult>(result);
+            var redirectResult = result as RedirectToActionResult;
+            Assert.AreEqual("Login", redirectResult.ActionName);
+            Assert.AreEqual("Users", redirectResult.ControllerName);
+
+            _mockUnitWork.Verify(u => u.user.SaveUsuario(It.Is<User>(usr => usr.Correo == newUser.Correo)), Times.Once);
+
+            _mockUnitWork.Verify(u => u.GuardarAsync(), Times.Once);
+        }
+
+
+
+        [Test]
+        public async Task Details_UserFound_ReturnsViewWithUser()
+        {
+            // Preparar
+            int userId = 7;
+
+            // Simulación de lo que debería devolver UnitWork al buscar el usuario
+            var mockUser = new User
+            {
+                Id = userId,
+                Nombre = "Isidro Antonio Torres Martínez",
+                Correo = "isiatom114@gmail.com"
+            };
+
+            // Simular la obtención del ID del usuario de los claims
+            var userClaims = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            }, "mock"));
+
+            // Simular HttpContext con los claims
+            _controller.ControllerContext = new ControllerContext()
+            {
+                HttpContext = new DefaultHttpContext { User = userClaims }
+            };
+
+            // Simular la respuesta de UnitWork para GetUsuarioById
+            _mockUnitWork.Setup(u => u.user.GetUsuarioById(userId))
+                .ReturnsAsync(mockUser);
+
+            // Ejecutar: Llamar al método Details del controlador
+            var result = await _controller.Details();
+
+            // Verificación
+            Assert.IsInstanceOf<ViewResult>(result);
+            var viewResult = result as ViewResult;
+            Assert.AreEqual(mockUser, viewResult.Model);
+        }
+
+        [Test]
+        public async Task Details_UserNotFound_ReturnsNotFound()
+        {
+            // Preparar
+            int userId = 7;
+
+            // Simular la obtención del ID del usuario de los claims
+            var userClaims = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            }, "mock"));
+
+            // Simular HttpContext con los claims
+            _controller.ControllerContext = new ControllerContext()
+            {
+                HttpContext = new DefaultHttpContext { User = userClaims }
+            };
+
+            // Simular que no se encuentra el usuario
+            _mockUnitWork.Setup(u => u.user.GetUsuarioById(userId))
+                .ReturnsAsync((User)null);
+
+            // Ejecutar: Llamar al método Details del controlador
+            var result = await _controller.Details();
+
+            // Verificación
+            Assert.IsInstanceOf<NotFoundResult>(result);
+        }
+
+        //
+
+        [Test]
+        public async Task Edit_Get_UserFound_ReturnsViewWithUser()
+        {
+            // Preparar
+            int userId = 7;
+
+            var mockUser = new User
+            {
+                Id = userId,
+                Nombre = "Isidro Antonio Torres Martínez"
+            };
+
+            // Simular la obtención del ID del usuario de los claims
+            var userClaims = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            }, "mock"));
+
+            // Simular HttpContext con los claims
+            _controller.ControllerContext = new ControllerContext()
+            {
+                HttpContext = new DefaultHttpContext { User = userClaims }
+            };
+
+            // Simular la respuesta de UnitWork para GetUsuarioById
+            _mockUnitWork.Setup(u => u.user.GetUsuarioById(userId))
+                .ReturnsAsync(mockUser);
+
+            // Ejecutar: Llamar al método Edit (GET) del controlador
+            var result = await _controller.Edit();
+
+            // Verificación
+            Assert.IsInstanceOf<ViewResult>(result);
+            var viewResult = result as ViewResult;
+            Assert.AreEqual(mockUser, viewResult.Model);
+        }
+
+        [Test]
+        public async Task Edit_Get_UserNotFound_ReturnsNotFound()
+        {
+            // Preparar
+            int userId = 7;
+
+            // Simular la obtención del ID del usuario de los claims
+            var userClaims = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            }, "mock"));
+
+            // Simular HttpContext con los claims
+            _controller.ControllerContext = new ControllerContext()
+            {
+                HttpContext = new DefaultHttpContext { User = userClaims }
+            };
+
+            // Simular que no se encuentra el usuario
+            _mockUnitWork.Setup(u => u.user.GetUsuarioById(userId))
+                .ReturnsAsync((User)null);
+
+            // Ejecutar: Llamar al método Edit (GET) del controlador
+            var result = await _controller.Edit();
+
+            // Verificación
+            Assert.IsInstanceOf<NotFoundResult>(result);
+        }
+
+        //
+
+        [Test]
+        public async Task Edit_Post_ValidModel_UpdatesUserAndRedirects()
+        {
+            // Preparar
+            int userId = 7;
+            var mockUser = new User
+            {
+                Id = userId,
+                Nombre = "Isidro Antonio Torres Martínez",
+                Correo = "isiatom114@gmail.com"
+            };
+
+            // Simular la obtención del ID del usuario de los claims
+            var userClaims = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+        new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            }, "mock"));
+
+            // Simular HttpContext con los claims
+            _controller.ControllerContext = new ControllerContext()
+            {
+                HttpContext = new DefaultHttpContext { User = userClaims }
+            };
+
+            // Simular la actualización del usuario en UnitWork
+            _mockUnitWork.Setup(u => u.user.UpdateUsuario(mockUser))
+                .Returns(Task.CompletedTask);
+
+            // Ejecutar: Llamar al método Edit (POST) del controlador
+            var result = await _controller.Edit(mockUser);
+
+            // Verificación
+            Assert.IsInstanceOf<RedirectToActionResult>(result);
+            var redirectResult = result as RedirectToActionResult;
+            Assert.AreEqual("Details", redirectResult.ActionName);
+
+            // Verificar que el método UpdateUsuario fue llamado
+            _mockUnitWork.Verify(u => u.user.UpdateUsuario(mockUser), Times.Once);
+        }
+
+        //
+
+        [Test]
+        public async Task CerrarSesion_LogsOutUserAndRedirectsToLogin()
+        {
+            // Preparar: Simular HttpContext con SignOutAsync
+            _mockAuthService.Setup(a => a.SignOutAsync(It.IsAny<HttpContext>(), CookieAuthenticationDefaults.AuthenticationScheme, null))
+                .Returns(Task.CompletedTask);
+
+            // Ejecutar: Llamar al método CerrarSesion del controlador
+            var result = await _controller.CerrarSesion();
+
+            // Verificación
+            Assert.IsInstanceOf<RedirectToActionResult>(result);
+            var redirectResult = result as RedirectToActionResult;
+            Assert.AreEqual("Login", redirectResult.ActionName);
+            Assert.AreEqual("Users", redirectResult.ControllerName);
+
+            // Verificar que SignOutAsync fue llamado
+            _mockAuthService.Verify(a => a.SignOutAsync(It.IsAny<HttpContext>(), CookieAuthenticationDefaults.AuthenticationScheme, null), Times.Once);
+        }
+
     }
 }

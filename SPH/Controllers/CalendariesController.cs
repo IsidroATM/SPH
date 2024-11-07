@@ -68,6 +68,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
             {
                 return NotFound();
@@ -111,6 +115,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Detail(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
             {
                 return NotFound();
@@ -128,6 +136,10 @@ namespace SPH.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             if (id == null)
                 return NotFound();
 
@@ -137,20 +149,26 @@ namespace SPH.Controllers
 
             return View(calendar);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(id);
+            }
             var calendar = await _unitWork.calendar.ObtenerAsync(id);
             if (calendar == null)
             {
-                return Json(new { success = false, message = "Evento no encontrado." });
+                return Json(new Dictionary<string, object> { { "success", false }, { "message", "Evento no encontrado." } });
             }
 
             _unitWork.calendar.Eliminar(calendar);
             await _unitWork.GuardarAsync();
 
-            return Json(new { success = true, message = "Evento eliminado correctamente." });
+            return Json(new Dictionary<string, object> { { "success", true }, { "message", "Evento eliminado correctamente." } });
         }
+
     }
 }
