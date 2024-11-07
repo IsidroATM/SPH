@@ -7,14 +7,17 @@
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para íconos -->
-    <link rel="stylesheet" href="~/css/Temas.css">
+    <link rel="stylesheet" href="~/css/temas.css">
 </head>
 
-<!-- =============== Navigation (Sidebar con enlaces del primer HTML) ================ -->
+<!-- ============ Container ============ -->
 <div class="container">
-    <div class="navigation">
+
+    <!-- ============ Navigation ============ -->
+    <nav class="navigation">
         <ul>
-            <li>
+            <!-- Logo -->
+            <li class="logo">
                 <a href="@Url.Action("Index", "Home")">
                     <span class="icon">
                         <ion-icon name="logo-apple"></ion-icon>
@@ -23,104 +26,99 @@
                 </a>
             </li>
 
+            <!-- Navigation Links -->
             <li>
                 <a href="@Url.Action("Index", "Calendaries")">
-                    <span class="icon">
-                        <i class="fas fa-calendar-alt"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
                     <span class="title">Calendario</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("Index", "Diaries")">
-                    <span class="icon">
-                        <i class="fas fa-book"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
                     <span class="title">Agenda</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("Index", "Organizers")">
-                    <span class="icon">
-                        <i class="fas fa-tasks"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="clipboard-outline"></ion-icon></span>
                     <span class="title">Organizador</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("Index", "Messengers")">
-                    <span class="icon">
-                        <i class="fas fa-comments"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
                     <span class="title">Mensajería</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("Index", "Themes")">
-                    <span class="icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="brush-outline"></ion-icon></span>
                     <span class="title">Personalizar Tema</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("Details", "Users")">
-                    <span class="icon">
-                        <i class="fas fa-cog"></i>
-                    </span>
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
                     <span class="title">Configurar</span>
                 </a>
             </li>
-
             <li>
                 <a href="@Url.Action("LogOut", "Home")">
-                    <span class="icon">
-                        <ion-icon name="log-out-outline"></ion-icon>
-                    </span>
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
                     <span class="title">Cerrar Sesión</span>
                 </a>
             </li>
         </ul>
-    </div>
+    </nav>
 
-    <!-- ========================= Main ==================== -->
+    <!-- ============ Main Content ============ -->
     <div class="main">
-        <!-- Topbar (barra superior del segundo HTML con búsqueda y perfil) -->
+        <!-- Topbar -->
         <div class="topbar">
+            <!-- Toggle Button -->
             <div class="toggle">
                 <ion-icon name="menu-outline"></ion-icon>
             </div>
+        </div>
 
-            <div class="user">
-                <img src="~/images/user.png" alt="Usuario">
-            </div>
+        <!-- ======================= Contenido Principal ================== -->
+
+        <div class="content" id="content">
+            <h2>Personalizador</h2>
+            <p>
+                <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Tema</a>
+            </p>
+
+            @foreach (var theme in Model)
+
+            {
+                <div>
+                    <h3>@theme.Name</h3>
+                    <p>Color: @theme.Color | Tipo de Fuente: @theme.FontType | Tamaño de Fuente: @theme.FontSize</p>
+                    <form asp-action="ApplyTheme" asp-route-id="@theme.ThemeId" method="post">
+                        <button type="submit" class="btn btn-primary">Aplicar Tema</button>
+                    </form>
+                </div>
+            }
         </div>
     </div>
 </div>
-<div class="content" id="content">
-    <h2>Personalizador</h2>
-    <p>
-        <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Tema</a>
-    </p>
-    <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
-    
-    @foreach (var theme in Model)
-    {
-        <div>
-            <h3>@theme.Name</h3>
-            <p>Color: @theme.Color | Tipo de Fuente: @theme.FontType | Tamaño de Fuente: @theme.FontSize</p>
-            <form asp-action="ApplyTheme" asp-route-id="@theme.ThemeId" method="post">
-                <button type="submit" class="btn btn-primary">Aplicar Tema</button>
-            </form>
-        </div>
-    }
-</div>
 
 @section Scripts {
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/js/sidebar.js"></script>
+
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        const main = document.querySelector('.main');
+
+        toggle.onclick = function () {
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        };
+    </script>
 }
