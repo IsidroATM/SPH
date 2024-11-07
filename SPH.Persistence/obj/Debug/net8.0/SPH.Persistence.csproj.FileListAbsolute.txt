@@ -187,3 +187,21 @@ C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWA
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.deps.json
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.runtimeconfig.json
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.dll
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Persistence\bin\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.AssemblyReference.cache
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfoInputs.cache
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.AssemblyInfo.cs
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CoreCompileInputs.cache
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.sourcelink.json
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.csproj.CopyComplete
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.dll
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\refint\SPH.Persistence.dll
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.pdb
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\SPH.Persistence.genruntimeconfig.cache
+D:\Ctest\SPH\SPH.Persistence\obj\Debug\net8.0\ref\SPH.Persistence.dll

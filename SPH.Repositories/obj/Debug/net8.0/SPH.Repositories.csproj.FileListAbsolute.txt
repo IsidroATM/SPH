@@ -187,3 +187,21 @@ C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWA
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.deps.json
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.dll
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Repositories.pdb
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.dll
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Repositories\bin\Debug\net8.0\SPH.Persistence.pdb
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.AssemblyReference.cache
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfoInputs.cache
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.AssemblyInfo.cs
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CoreCompileInputs.cache
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.sourcelink.json
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.csproj.CopyComplete
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.dll
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\refint\SPH.Repositories.dll
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\SPH.Repositories.pdb
+D:\Ctest\SPH\SPH.Repositories\obj\Debug\net8.0\ref\SPH.Repositories.dll

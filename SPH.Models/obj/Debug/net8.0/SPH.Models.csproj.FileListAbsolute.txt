@@ -121,3 +121,15 @@ C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWA
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.deps.json
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\bin\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfoInputs.cache
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.AssemblyInfo.cs
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.csproj.CoreCompileInputs.cache
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.sourcelink.json
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\refint\SPH.Models.dll
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\SPH.Models.pdb
+D:\Ctest\SPH\SPH.Models\obj\Debug\net8.0\ref\SPH.Models.dll

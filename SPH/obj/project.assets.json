@@ -8673,42 +8673,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cristopher\\.nuget\\packages\\": {}
+    "C:\\Users\\isiat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\SPH.csproj",
+      "projectUniqueName": "D:\\Ctest\\SPH\\SPH\\SPH.csproj",
       "projectName": "SPH",
-      "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\SPH.csproj",
-      "packagesPath": "C:\\Users\\cristopher\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\obj\\",
+      "projectPath": "D:\\Ctest\\SPH\\SPH\\SPH.csproj",
+      "packagesPath": "C:\\Users\\isiat\\.nuget\\packages\\",
+      "outputPath": "D:\\Ctest\\SPH\\SPH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cristopher\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\isiat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj": {
-              "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Models\\SPH.Models.csproj"
+            "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH.Models\\SPH.Models.csproj"
             },
-            "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
-              "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
+            "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH.Persistence\\SPH.Persistence.csproj"
             },
-            "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
-              "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
+            "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH.Repositories\\SPH.Repositories.csproj"
             },
-            "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
-              "projectPath": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
+            "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj": {
+              "projectPath": "D:\\Ctest\\SPH\\SPH.Utilities\\SPH.Utilities.csproj"
             }
           }
         }
@@ -8717,11 +8718,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8788,7 +8784,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
