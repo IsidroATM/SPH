@@ -1773,21 +1773,21 @@ D:\UPN\C8\Calypso\Proyecto\Tests\SPH\PruebasUnit\obj\Debug\net8.0\PruebasUnit.pd
 D:\UPN\C8\Calypso\Proyecto\Tests\SPH\PruebasUnit\obj\Debug\net8.0\PruebasUnit.genruntimeconfig.cache
 D:\UPN\C8\Calypso\Proyecto\Tests\SPH\PruebasUnit\obj\Debug\net8.0\ref\PruebasUnit.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\CoverletSourceRootsMapping_PruebasUnit
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\testhost.dll
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.deps.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.runtimeconfig.json
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\appsettings.json
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\libman.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.staticwebassets.runtime.json
+C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.exe
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\testhost.exe
-C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\testhost.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\NUnit3.TestAdapter.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\nunit.engine.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\nunit.engine.api.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\testcentric.engine.metadata.dll
-C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.deps.json
-C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.runtimeconfig.json
-C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.staticwebassets.runtime.json
-C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\SPH.exe
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\PruebasUnit.deps.json
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\PruebasUnit.runtimeconfig.json
 C:\Users\cristopher\Downloads\Cristopher\UPN\ciclo 8\CALIDAD Y PRUEBAS DE SOFTWARE\Proyecto\SPH\PruebasUnit\bin\Debug\net8.0\PruebasUnit.dll

@@ -5,7 +5,19 @@
       "PackagePath": "staticwebassets\\SPH.bundle.scp.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\calendaries.css",
+      "PackagePath": "staticwebassets\\css\\calendaries.css"
+    },
+    {
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\configuracion.css",
+      "PackagePath": "staticwebassets\\css\\configuracion.css"
+    },
+    {
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\diary.css",
+      "PackagePath": "staticwebassets\\css\\diary.css"
+    },
+    {
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
@@ -13,20 +25,20 @@
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\register.css",
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\mensajes.css",
+      "PackagePath": "staticwebassets\\css\\mensajes.css"
+    },
+    {
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\organizador.css",
+      "PackagePath": "staticwebassets\\css\\organizador.css"
+    },
+    {
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\st.css",
-      "PackagePath": "staticwebassets\\css\\st.css"
-    },
-    {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\css\\temas.css",
+      "PackagePath": "staticwebassets\\css\\temas.css"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\favicon.ico",
@@ -49,8 +61,8 @@
       "PackagePath": "staticwebassets\\images\\img3.jpeg"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\logo.jpeg",
-      "PackagePath": "staticwebassets\\images\\logo.jpeg"
+      "Id": "C:\\Users\\cristopher\\Downloads\\Cristopher\\UPN\\ciclo 8\\CALIDAD Y PRUEBAS DE SOFTWARE\\Proyecto\\SPH\\SPH\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\user.png",

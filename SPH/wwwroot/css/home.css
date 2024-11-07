@@ -30,13 +30,13 @@ body {
 /* =============== Navigation ================ */
 .navigation {
     position: fixed;
-    left: 0; /* Asegura que esté pegado a la izquierda */
-    top: 0; /* Asegura que esté pegado a la parte superior */
-    width: 300px; /* Ancho de la barra de navegación */
+    left: 0;
+    top: 0;
+    width: 300px;
     height: 100%;
-    background: #deb887;
-    border-left: none; /* Quita el borde que pueda separarlo de la izquierda */
-    transition: 0.5s;
+    background-color: var(--black1); /* Fondo azul */
+    color: var(--white); /* Texto en blanco */
+    transition: width 0.5s ease;
     overflow: hidden;
 }
 
@@ -61,7 +61,8 @@ body {
 
             .navigation ul li:hover,
             .navigation ul li.hovered {
-                background-color: var(--white);
+                background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+                transition: background-color 0.3s ease; /* Transición suave */
             }
 
             .navigation ul li:nth-child(1) {
@@ -71,9 +72,8 @@ body {
 
             .navigation ul li a {
                 position: relative;
-                display: block;
-                width: 100%;
                 display: flex;
+                width: 100%;
                 text-decoration: none;
                 color: var(--white);
             }
@@ -106,48 +106,52 @@ body {
                 white-space: nowrap;
             }
 
-            /* --------- curve outside ---------- */
-            .navigation ul li:hover a::before,
-            .navigation ul li.hovered a::before {
-                content: "";
-                position: absolute;
-                right: 0;
-                top: -50px;
-                width: 50px;
-                height: 50px;
-                background-color: transparent;
-                border-radius: 50%;
-                box-shadow: 35px 35px 0 10px var(--white);
-                pointer-events: none;
-            }
+    .navigation.active .title {
+        display: none; /* Ocultar los títulos de los elementos al contraer */
+    }
 
-            .navigation ul li:hover a::after,
-            .navigation ul li.hovered a::after {
-                content: "";
-                position: absolute;
-                right: 0;
-                bottom: -50px;
-                width: 50px;
-                height: 50px;
-                background-color: transparent;
-                border-radius: 50%;
-                box-shadow: 35px -35px 0 10px var(--white);
-                pointer-events: none;
-            }
+    /* --------- curve outside ---------- */
+    .navigation ul li:hover a::before,
+    .navigation ul li.hovered a::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px 35px 0 10px var(--white);
+        pointer-events: none;
+    }
+
+    .navigation ul li:hover a::after,
+    .navigation ul li.hovered a::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -50px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border-radius: 50%;
+        box-shadow: 35px -35px 0 10px var(--white);
+        pointer-events: none;
+    }
 
 /* ===================== Main ===================== */
 .main {
     position: absolute;
-    left: 300px; /* Ajuste el margen izquierdo para comenzar justo después de la barra de navegación */
-    width: calc(100% - 300px); /* El ancho de .main debe ser el restante del ancho de la pantalla */
+    left: 300px;
+    width: calc(100% - 300px);
     min-height: 100vh;
     background: var(--white);
-    transition: 0.5s;
+    transition: left 0.5s ease, width 0.5s ease; /* Transición suave en ancho y posición */
 }
 
     .main.active {
-        left: 80px; /* Cuando el menú está colapsado */
-        width: calc(100% - 80px); /* Ajustar el ancho cuando el menú está minimizado */
+        left: 100px; /* Ajuste de la posición al contraer el menú */
+        width: calc(100% - 100px); /* Reducción del ancho */
     }
 
 .topbar {
@@ -159,15 +163,21 @@ body {
     padding: 0 10px;
 }
 
+/* Modificación: Coloca el botón de menú en el borde derecho del menú */
 .toggle {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 20px; /* Mantiene la posición vertical */
+    right: -35px; /* Cambia 'right' a 'left' para moverlo a la izquierda */
     font-size: 2.5rem;
+    color: var(--blue);
     cursor: pointer;
+    transition: transform 0.4s ease;
+    z-index: 1001;
+}
+
+.navigation.active ~ .toggle {
+    display: block; /* Mostrar el botón al contraer el menú */
+    transform: rotate(180deg); /* Rotar el icono de menú para indicar el cambio de estado */
 }
 
 .search {
@@ -239,7 +249,6 @@ body {
     }
 
         .cardBox .card .numbers {
-            position: relative;
             font-weight: 500;
             font-size: 2.5rem;
             color: var(--blue);
@@ -268,18 +277,14 @@ body {
 
 /* ================== Order Details List ============== */
 .details {
-    position: relative;
     width: 100%;
     padding: 20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
-    /* margin-top: 10px; */
 }
 
     .details .recentOrders {
-        position: relative;
-        display: grid;
         min-height: 500px;
         background: var(--white);
         padding: 20px;
@@ -299,12 +304,11 @@ body {
 }
 
 .cardHeader .btn {
-    position: relative;
     padding: 5px 10px;
     background: var(--blue);
-    text-decoration: none;
     color: var(--white);
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .details table {
@@ -340,118 +344,58 @@ body {
     }
 
     .details .recentOrders table tr td:nth-child(2) {
-        text-align: end;
-    }
-
-    .details .recentOrders table tr td:nth-child(3) {
         text-align: center;
     }
 
 .status.delivered {
-    padding: 2px 4px;
     background: #8de02c;
     color: var(--white);
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 500;
+    padding: 2px 4px;
 }
 
 .status.pending {
-    padding: 2px 4px;
     background: #e9b10a;
     color: var(--white);
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 500;
+    padding: 2px 4px;
 }
 
 .status.return {
-    padding: 2px 4px;
     background: #f00;
     color: var(--white);
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 500;
+    padding: 2px 4px;
 }
 
 .status.inProgress {
-    padding: 2px 4px;
     background: #1795ce;
     color: var(--white);
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 500;
+    padding: 2px 4px;
 }
 
-.recentCustomers {
-    position: relative;
-    display: grid;
-    min-height: 500px;
-    padding: 20px;
-    background: var(--white);
-    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
-    border-radius: 20px;
-}
-
-    .recentCustomers .imgBx {
-        position: relative;
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-        overflow: hidden;
-    }
-
-        .recentCustomers .imgBx img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-    .recentCustomers table tr td {
-        padding: 12px 10px;
-    }
-
-        .recentCustomers table tr td h4 {
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.2rem;
-        }
-
-            .recentCustomers table tr td h4 span {
-                font-size: 14px;
-                color: var(--black2);
-            }
-
-    .recentCustomers table tr:hover {
-        background: var(--blue);
-        color: var(--white);
-    }
-
-        .recentCustomers table tr:hover td h4 span {
-            color: var(--white);
-        }
-
-/* ====================== Responsive Design ========================== */
+/* ============== Responsive Design ============== */
 @media (max-width: 991px) {
     .navigation {
-        left: -300px; /* Oculta la barra de navegación cuando se usa en pantallas más pequeñas */
+        width: 100px;
     }
 
         .navigation.active {
-            left: 0; /* La barra de navegación aparece en pantallas pequeñas */
             width: 300px;
         }
 
     .main {
-        left: 0; /* En pantallas pequeñas, la página principal debe ocupar todo el ancho cuando la barra está oculta */
-        width: 100%;
+        left: 100px;
+        width: calc(100% - 100px);
     }
 
         .main.active {
-            left: 300px; /* En pantallas pequeñas, cuando el menú está expandido */
+            left: 300px;
             width: calc(100% - 300px);
         }
 
@@ -465,47 +409,27 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .recentOrders {
-        overflow-x: auto;
-    }
-
-    .status.inProgress {
-        white-space: nowrap;
+    .cardBox {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-    .cardBox {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .cardHeader h2 {
-        font-size: 20px;
-    }
-
-    .user {
-        min-width: 40px;
-    }
-
     .navigation {
-        width: 100%;
-        left: -100%;
-        z-index: 1000;
+        width: 100px;
     }
 
         .navigation.active {
             width: 100%;
-            left: 0;
         }
 
-    .toggle {
-        z-index: 10001;
+    .main {
+        left: 100px;
+        width: calc(100% - 100px);
     }
 
-    .main.active .toggle {
-        color: #fff;
-        position: fixed;
-        right: 0;
-        left: initial;
-    }
+        .main.active {
+            left: 0;
+            width: 100%;
+        }
 }
