@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPH.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c35be44e05c78489bfc2f5de27f2ab9d737d5773")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d17b496289bc487cd541ffcdf2ebe87d956188df")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPH.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPH.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

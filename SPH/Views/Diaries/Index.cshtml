@@ -7,70 +7,143 @@
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome para íconos -->
-    <link rel="stylesheet" href="~/css/st.css">
+    <link rel="stylesheet" href="~/css/diary.css">
 </head>
 
-<div class="sidebar" id="sidebar">
-    <a href="@Url.Action("Index", "Home")">
-        <img src="~/images/logo.png" alt="Logo" class="mb-4">
-    </a>
-    <p class="text-center">ID de usuario: @ViewData["UserId"]</p>
-    <a href="@Url.Action("Index", "Calendaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-calendar-alt mr-2"></i> Calendario</a>
-    <a href="@Url.Action("Index", "Diaries")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-book mr-2"></i> Agenda</a>
-    <a href="@Url.Action("Index", "Organizers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-tasks mr-2"></i> Organizador</a>
-    <a href="@Url.Action("Index", "Messengers")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-comments mr-2"></i> Mensajería</a>
-    <a href="@Url.Action("Index", "Themes")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-paint-brush mr-2"></i> Personalizar Tema</a>
-    <a href="@Url.Action("Details", "Users")" class="btn btn-light btn-lg btn-block mb-3"><i class="fas fa-cog mr-2"></i> Configurar</a>
-</div>
+<!-- ============ Container ============ -->
+<div class="container">
 
+    <!-- ============ Navigation ============ -->
+    <nav class="navigation">
+        <ul>
+            <!-- Logo -->
+            <li class="logo">
+                <a href="@Url.Action("Index", "Home")">
+                    <span class="icon">
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </span>
+                    <span class="title">Student Planner Hub</span>
+                </a>
+            </li>
 
-<div class="content" id="content">
-    <button class="open-btn" onclick="toggleSidebar()">&#9776;</button>
-    <h2 class="display-3 mb-3">Lista de Notas</h2>
-
-    <form method="post" asp-antiforgery="true"></form>
-
-    <form method="get" asp-action="Index">
-        <div class="input-group mb-3">
-            <input type="text" name="searchString" class="form-control" placeholder="Buscar..." value="@ViewData["CurrentFilter"]" />
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">Buscar</button>
+            <!-- Navigation Links -->
+            <li>
+                <a href="@Url.Action("Index", "Calendaries")">
+                    <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
+                    <span class="title">Calendario</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Diaries")">
+                    <span class="icon"><ion-icon name="book-outline"></ion-icon></span>
+                    <span class="title">Agenda</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Organizers")">
+                    <span class="icon"><ion-icon name="clipboard-outline"></ion-icon></span>
+                    <span class="title">Organizador</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Messengers")">
+                    <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                    <span class="title">Mensajería</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Index", "Themes")">
+                    <span class="icon"><ion-icon name="brush-outline"></ion-icon></span>
+                    <span class="title">Personalizar Tema</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("Details", "Users")">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">Configurar</span>
+                </a>
+            </li>
+            <li>
+                <a href="@Url.Action("LogOut", "Home")">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">Cerrar Sesión</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- ============ Main Content ============ -->
+    <div class="main">
+        <!-- Topbar -->
+        <div class="topbar">
+            <!-- Toggle Button -->
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
             </div>
         </div>
-    </form>
 
-    <div class="mb-3">
-        <a asp-action="Create" class="btn btn-primary">Crear Nueva Nota</a>
+        <!-- ======================= Contenido Principal ================== -->
+        <div class="content" id="content">
+            <h2 class="display-3 mb-3">Lista de Notas</h2>
+
+            <form method="post" asp-antiforgery="true"></form>
+
+            <form method="get" asp-action="Index">
+                <div class="input-group mb-3">
+                    <input type="text" name="searchString" class="form-control" placeholder="Buscar..." value="@ViewData["CurrentFilter"]" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="mb-3">
+                <a asp-action="Create" class="btn btn-primary">Crear Nueva Nota</a>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.NombreNota)</th>
+                        <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
+                        <th>@Html.DisplayNameFor(model => model.FechaCreacion)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.NombreNota)</td>
+                            <td>@Html.Raw(item.Descripcion)</td>
+                            <td>@Html.DisplayFor(modelItem => item.FechaCreacion)</td>
+                            <td>
+                                <a asp-action="Detail" asp-route-id="@item.NoteId" class="btn btn-warning">Detalles</a>
+                                <a asp-action="Edit" asp-route-id="@item.NoteId" class="btn btn-warning">Editar</a>
+                                <button type="button" class="btn btn-danger" onclick="Delete(@item.NoteId)">Eliminar</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>@Html.DisplayNameFor(model => model.NombreNota)</th>
-                <th>@Html.DisplayNameFor(model => model.Descripcion)</th>
-                <th>@Html.DisplayNameFor(model => model.FechaCreacion)</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@Html.DisplayFor(modelItem => item.NombreNota)</td>
-                    <td>@Html.Raw(item.Descripcion)</td>
-                    <td>@Html.DisplayFor(modelItem => item.FechaCreacion)</td>
-                    <td>
-                        <a asp-action="Detail" asp-route-id="@item.NoteId" class="btn btn-warning">Detalles</a>
-                        <a asp-action="Edit" asp-route-id="@item.NoteId" class="btn btn-warning">Editar</a>
-                        <button type="button" class="btn btn-danger" onclick="Delete(@item.NoteId)">Eliminar</button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
 </div>
 
 @section Scripts {
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/js/diary.js"></script>
     <script src="~/js/sidebar.js"></script>
+
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        const main = document.querySelector('.main');
+
+        toggle.onclick = function () {
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        };
+    </script>
 }

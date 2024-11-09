@@ -65,25 +65,21 @@ namespace PruebasUnit
         [Test]
         public async Task LoginOk()
         {
-            // Preparar
             string email = "isiatom114@gmail.com";
             string password = "Axia2114";
 
-            // Simulación de lo que debería devolver el UnitWork al buscar el usuario
             var mockUser = new User
             {
                 Id = 7,
                 Nombre = "Isidro Antonio Torres Martínez",
                 Correo = email,
-                Contraseña = SPH.Utilities.Serv_Encrip.EncriptarClave(password), // Encriptar clave como en el controlador
+                Contraseña = SPH.Utilities.Serv_Encrip.EncriptarClave(password),
                 Rol = "Estudiante"
             };
 
-            // Simular la respuesta de UnitWork para GetUsuario
             _mockUnitWork.Setup(u => u.user.GetUsuario(email, It.IsAny<string>()))
                 .ReturnsAsync(mockUser);
 
-            // Preparar los claims esperados para el usuario autenticado
             var claims = new List<Claim>
     {
         new Claim(ClaimTypes.Name, mockUser.Nombre),
@@ -94,13 +90,12 @@ namespace PruebasUnit
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-            // Capturar el ClaimsPrincipal pasado a SignInAsync
             ClaimsPrincipal capturedClaimsPrincipal = null;
 
             _mockAuthService.Setup(a => a.SignInAsync(
                 It.IsAny<HttpContext>(),
-                CookieAuthenticationDefaults.AuthenticationScheme, // Esquema correcto
-                It.IsAny<ClaimsPrincipal>(),  // Capturar ClaimsPrincipal
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                It.IsAny<ClaimsPrincipal>(), 
                 It.IsAny<AuthenticationProperties>()))
                 .Callback<HttpContext, string, ClaimsPrincipal, AuthenticationProperties>((context, scheme, principal, properties) =>
                 {
@@ -108,22 +103,18 @@ namespace PruebasUnit
                 })
                 .Returns(Task.CompletedTask);
 
-            // Ejecutar: Llamar al método Login del controlador
             var result = await _controller.Login(email, password);
 
-            // Verificación de la redirección
             Assert.IsInstanceOf<RedirectToActionResult>(result);
             var redirectResult = result as RedirectToActionResult;
             Assert.AreEqual("Index", redirectResult.ActionName);
 
-            // Verificar que el método SignInAsync fue llamado una vez
             _mockAuthService.Verify(a => a.SignInAsync(
                 It.IsAny<HttpContext>(),
-                CookieAuthenticationDefaults.AuthenticationScheme,  // Verificar que se utilizó el esquema "Cookies"
+                CookieAuthenticationDefaults.AuthenticationScheme, 
                 It.IsAny<ClaimsPrincipal>(),
                 It.IsAny<AuthenticationProperties>()), Times.Once);
 
-            // Verificar que los reclamos en capturedClaimsPrincipal son correctos
             Assert.NotNull(capturedClaimsPrincipal);
             Assert.IsTrue(capturedClaimsPrincipal.HasClaim(c => c.Type == ClaimTypes.Name && c.Value == mockUser.Nombre));
             Assert.IsTrue(capturedClaimsPrincipal.HasClaim(c => c.Type == ClaimTypes.NameIdentifier && c.Value == mockUser.Id.ToString()));
@@ -175,6 +166,47 @@ namespace PruebasUnit
             Assert.IsInstanceOf<ViewResult>(result);
             Assert.AreEqual("El correo ya está registrado. Por favor, intenta con otro correo.", _controller.ViewData["Mensaje"]);
         }
+
+        [Test]
+        public async Task RegisterOk()
+        {
+            var newUser = new User
+            {
+                Id = 10,  
+                Nombre = "Nuevo Usuario",
+                Correo = "nuevo@usuario.com",
+                Contraseña = SPH.Utilities.Serv_Encrip.EncriptarClave("Password123"),
+                Rol = "Estudiante",
+                Estado = true,
+                Biografia = "",
+                ImagenPerfil = "",
+                NumeroContacto = "",
+                Ubicacion = "",
+                Organizacion = ""
+            };
+
+            _mockUnitWork.Setup(u => u.user.GetUsuarioByEmail(newUser.Correo))
+                .ReturnsAsync((User)null);
+
+            _mockUnitWork.Setup(u => u.user.SaveUsuario(It.IsAny<User>()))
+                .ReturnsAsync(newUser); 
+
+            _mockUnitWork.Setup(u => u.GuardarAsync())
+                .Returns(Task.CompletedTask);
+
+            var result = await _controller.Register(newUser);
+
+            Assert.IsInstanceOf<RedirectToActionResult>(result);
+            var redirectResult = result as RedirectToActionResult;
+            Assert.AreEqual("Login", redirectResult.ActionName);
+            Assert.AreEqual("Users", redirectResult.ControllerName);
+
+            _mockUnitWork.Verify(u => u.user.SaveUsuario(It.Is<User>(usr => usr.Correo == newUser.Correo)), Times.Once);
+
+            _mockUnitWork.Verify(u => u.GuardarAsync(), Times.Once);
+        }
+
+
 
         [Test]
         public async Task Details_UserFound_ReturnsViewWithUser()

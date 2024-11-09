@@ -2,46 +2,117 @@
     ViewData["Title"] = null;
 }
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="~/css/styles_user_login.css">
+    <link rel="stylesheet" href="~/css/login.css">
 </head>
 <body>
-    <div class="wrapper mt-5 pt-5">
-        <form asp-controller="Users" asp-action="Login" method="post">
-            <h1>Iniciar Sesión</h1>
-            <div class="input-box">
-                <input type="email" placeholder="Correo" required name="email">
-                <i class='bx bxs-user'></i>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Contraseña" required name="clave">
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <button type="submit" class="btn">Iniciar Sesión</button>
-            @if (ViewData["Mensaje"] != null)
-            {
-                <div class="form-group">
-                    <div class="alert alert-danger" role="alert">
-                        @ViewData["Mensaje"]
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                    <form asp-controller="Users" asp-action="Login" method="post" class="sign-in-form">
+                        <div class="logo">
+                            <img src="./images/logo.png" alt="Student Planner Hub" />
+                            <h4>Student Planner Hub</h4>
+                        </div>
+
+                        <div class="heading">
+                            <h2>Bienvenido de nuevo</h2>
+                            <h6>¿Aún no estás registrado?</h6>
+                            <a href="@Url.Action("Register","Users")" class="toggle">Sign up</a>
+                        </div>
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="email" placeholder="Correo" required name="email" class="input-field" autocomplete="on" />
+                                <i class='bx bxs-user'></i>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input type="password" placeholder="Contraseña" required name="clave" class="input-field" autocomplete="on" />
+                                <i class='bx bxs-lock-alt'></i>
+                            </div>
+
+                            <input type="submit" value="Iniciar Sesión" class="sign-btn btn" />
+
+                            @if (ViewData["Mensaje"] != null)
+                            {
+                                <p class="text">
+                                    @ViewData["Mensaje"]
+                                </p>
+                            }
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Carrusel de imágenes y textos -->
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="./images/img1.jpeg" class="image img-1 show" alt="Image 1" />
+                        <img src="./images/img2.jpeg" class="image img-2" alt="Image 2" />
+                        <img src="./images/img3.jpeg" class="image img-3" alt="Image 3" />
+                    </div>
+
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2>Create your own courses</h2>
+                                <h2>Customize as you like</h2>
+                                <h2>Invite students to your class</h2>
+                            </div>
+                        </div>
+
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
                     </div>
                 </div>
-            }
-            <div class="register-link">
-                <p>¿No tienes una cuenta? <a href="@Url.Action("Register","Users")">Regístrate!</a></p>
             </div>
-        </form>
-    </div>
+        </div>
+    </main>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Cualquier otro script que necesites
+            // Scripts para el carrusel de imágenes
+            const images = document.querySelectorAll('.image');
+            const bullets = document.querySelectorAll('.bullets span');
+            const textGroup = document.querySelector('.text-group');
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                images.forEach((img, i) => {
+                    img.classList.toggle('show', i === index);
+                });
+                bullets.forEach((bullet, i) => {
+                    bullet.classList.toggle('active', i === index);
+                });
+                textGroup.style.transform = `translateY(-${index * 100}%)`;
+            }
+
+            bullets.forEach((bullet, index) => {
+                bullet.addEventListener('click', () => {
+                    currentIndex = index;
+                    showSlide(currentIndex);
+                });
+            });
+
+            // Auto-play (opcional)
+            setInterval(() => {
+                currentIndex = (currentIndex + 1) % images.length;
+                showSlide(currentIndex);
+            }, 5000); // Cambia cada 5 segundos
         });
     </script>
 
+    <script src="~/js/login.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
