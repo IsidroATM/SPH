@@ -5,52 +5,84 @@
       "PackagePath": "staticwebassets\\SPH.bundle.scp.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\Organizador.css",
+      "PackagePath": "staticwebassets\\css\\Organizador.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\st.css",
-      "PackagePath": "staticwebassets\\css\\st.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\Temas.css",
+      "PackagePath": "staticwebassets\\css\\Temas.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\calendaries.css",
+      "PackagePath": "staticwebassets\\css\\calendaries.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles_home.css",
-      "PackagePath": "staticwebassets\\css\\styles_home.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\configuracion.css",
+      "PackagePath": "staticwebassets\\css\\configuracion.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles_user_detail.css",
-      "PackagePath": "staticwebassets\\css\\styles_user_detail.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\diary.css",
+      "PackagePath": "staticwebassets\\css\\diary.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles_user_login.css",
-      "PackagePath": "staticwebassets\\css\\styles_user_login.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\styles_user_register.css",
-      "PackagePath": "staticwebassets\\css\\styles_user_register.css"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\mensajes.css",
+      "PackagePath": "staticwebassets\\css\\mensajes.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\img-login.jpg",
-      "PackagePath": "staticwebassets\\images\\img-login.jpg"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\fondo_login.jpg",
+      "PackagePath": "staticwebassets\\images\\fondo_login.jpg"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\img1.jpeg",
+      "PackagePath": "staticwebassets\\images\\img1.jpeg"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\img2.jpeg",
+      "PackagePath": "staticwebassets\\images\\img2.jpeg"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\img3.jpeg",
+      "PackagePath": "staticwebassets\\images\\img3.jpeg"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\logo_Alt.png",
-      "PackagePath": "staticwebassets\\images\\logo_Alt.png"
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\calendar.js",
       "PackagePath": "staticwebassets\\js\\calendar.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\messenger-delete.js",
@@ -65,12 +97,28 @@
       "PackagePath": "staticwebassets\\js\\organizer.js"
     },
     {
-      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\sidebar.js",
-      "PackagePath": "staticwebassets\\js\\sidebar.js"
-    },
-    {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\animate.css\\animate.compat.css",
+      "PackagePath": "staticwebassets\\lib\\animate.css\\animate.compat.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\animate.css\\animate.compat.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate.css\\animate.compat.min.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\animate.css\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate.css\\animate.css"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate.css\\animate.min.css"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -1975,6 +2023,14 @@
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\toastr.js\\toastr.min.js",
       "PackagePath": "staticwebassets\\lib\\toastr.js\\toastr.min.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {
       "Id": "D:\\UPN\\C8\\Calypso\\Proyecto\\Tests\\SPH\\SPH\\wwwroot\\select2-bootstrap-css\\select2-bootstrap.css",

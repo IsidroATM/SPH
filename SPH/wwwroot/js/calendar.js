@@ -1,12 +1,4 @@
-﻿const toggle = document.querySelector('.toggle');
-const navigation = document.querySelector('.navigation');
-const main = document.querySelector('.main');
-
-toggle.onclick = function () {
-    navigation.classList.toggle('active');
-    main.classList.toggle('active');
-};
-$(document).ready(function () {
+﻿$(document).ready(function () {
     const events = JSON.parse($('#events-data').val());
     const expandedEvents = expandEvents(events);
 
@@ -66,22 +58,6 @@ $(document).ready(function () {
         });
         return expandedEvents;
     }
-
-    // Toggle sidebar
-    $('.toggle').click(function () {
-        $('.navigation, .main').toggleClass('active');
-        $(this).toggleClass('active');
-    });
-
-    // Sidebar hover effect
-    $('.navigation ul li').hover(
-        function () {
-            $(this).addClass('hovered');
-        },
-        function () {
-            $(this).removeClass('hovered');
-        }
-    );
 
     // Delete event confirmation
     window.deleteEvent = function (eventId) {

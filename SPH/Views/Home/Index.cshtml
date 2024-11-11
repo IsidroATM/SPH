@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Planner Hub</title>
+
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/lib/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
@@ -16,16 +19,21 @@
         <nav class="navigation">
             <ul>
                 <!-- Logo -->
-                <li class="logo">
-                    <a href="@Url.Action("Index", "Home")">
-                        <span class="icon">
-                            <ion-icon name="logo-apple"></ion-icon>
-                        </span>
+               
+                <li>
+                    <a>
+                        <span class="icon"><ion-icon name="logo-apple"></ion-icon></span>
                         <span class="title">Student Planner Hub</span>
                     </a>
                 </li>
 
                 <!-- Navigation Links -->
+                <li>
+                    <a href="@Url.Action("Index","Home")">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Inicio</span>
+                    </a>
+                </li>
                 <li>
                     <a href="@Url.Action("Index", "Calendaries")">
                         <span class="icon"><ion-icon name="calendar-outline"></ion-icon></span>
@@ -83,20 +91,56 @@
 
             <!-- ======================= Contenido Principal ================== -->
             <div class="contenthome" id="contenthome">
-                <h1 class="display-4 mb-4">STUDENT PLANNER HUB</h1>
-                <h2 class="display-3 mb-3">Bienvenido, @ViewData["nombreUsuario"]</h2>
-                <p>ID de usuario: @ViewData["UserId"]</p>
-                <div class="welcome-description">
+
+                <!-- Sección de Bienvenida -->
+                <div class="welcome-section text-center my-5">
+                    <h2 class="display-3 mb-3">Bienvenido, @ViewData["nombreUsuario"]</h2>
+                    <p>ID de usuario: @ViewData["UserId"]</p>
                     <p>Bienvenido a Student Planner Hub, donde puedes:</p>
-                    <ul>
-                        <li>Crear notas y eventos</li>
-                        <li>Administrar tareas y actividades</li>
-                        <li>Chatear con otros usuarios</li>
-                        <li>Modificar tu perfil</li>
-                        <li>y mucho más...</li>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-check-circle"></i> Crear notas y eventos</li>
+                        <li><i class="fa fa-check-circle"></i> Administrar tareas y actividades</li>
+                        <li><i class="fa fa-check-circle"></i> Chatear con otros usuarios</li>
+                        <li><i class="fa fa-check-circle"></i> Modificar tu perfil</li>
                     </ul>
+                    <a href="@Url.Action("Privacy", "Home")" class="btn btn-primary mt-3">Política de Privacidad</a>
                 </div>
+
+                <!-- Sección de Servicios -->
+                <section id="services" class="services-section mt-5">
+                    <div class="container">
+                        <div class="text-center mb-4">
+                            <h3>Nuestros Servicios</h3>
+                            <p class="lead">Explora las herramientas que ofrece el Student Planner Hub</p>
+                            <hr>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="service-box">
+                                    <i class="fa fa-calendar fa-3x mb-3"></i>
+                                    <h4>Calendario</h4>
+                                    <p>Organiza tus eventos y tareas con facilidad.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="service-box">
+                                    <i class="fa fa-book fa-3x mb-3"></i>
+                                    <h4>Agenda</h4>
+                                    <p>Administra tus notas y recuerda tus tareas importantes.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="service-box">
+                                    <i class="fa fa-comments fa-3x mb-3"></i>
+                                    <h4>Mensajería</h4>
+                                    <p>Comunícate con otros estudiantes fácilmente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
+
         </div>
     </div>
 
@@ -104,5 +148,10 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/js/home.js"></script>
+    <script src="~/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 </html>

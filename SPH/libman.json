@@ -11,10 +11,6 @@
       "destination": "wwwroot/lib/select2/"
     },
     {
-      "library": "select2-bootstrap-theme@0.1.0-beta.10",
-      "destination": "wwwroot/lib/select2-bootstrap-theme/"
-    },
-    {
       "library": "toastr.js@2.1.4",
       "destination": "wwwroot/lib/toastr.js/"
     },
@@ -27,25 +23,24 @@
       "destination": "wwwroot/lib/bootstrap/"
     },
     {
-      "provider": "cdnjs",
-      "library": "fullcalendar@6.1.14",
-      "destination": "wwwroot/lib/fullcalendar/"
-    },
-    {
-      "provider": "cdnjs",
       "library": "select2-bootstrap-css@1.4.6",
       "destination": "wwwroot/select2-bootstrap-css/"
     },
     {
-      "provider": "cdnjs",
       "library": "select2-bootstrap-theme@0.1.0-beta.10",
       "destination": "wwwroot/select2-bootstrap-theme/"
+    },
+    {
+      "library": "fullcalendar@6.1.14",
+      "destination": "wwwroot/lib/fullcalendar/"
+    },
+    {
+      "library": "wow@1.1.2",
+      "destination": "wwwroot/lib/wow/"
+    },
+    {
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/lib/animate.css/"
     }
-  ,
-{
-  "provider": "cdnjs",
-  "library": "fullcalendar@6.1.14",
-  "destination": "wwwroot/lib/fullcalendar/"
-}
-]
+  ]
 }

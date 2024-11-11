@@ -7,7 +7,10 @@
     var userContactId = ViewData["UserContactId"] as int?;
 }
 
-<h2>Mensajes</h2>
+<h2>Chat</h2>
+<div>
+    <a href="@Url.Action("Index", "Messengers")" class="btn btn-primary">Volver</a>
+</div>
 
 @if (messengerId.HasValue)
 {
